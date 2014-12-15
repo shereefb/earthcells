@@ -24,10 +24,10 @@ class SearchResult
   def set_result_for(obj)
     case obj
     when Discussion then
-      @discussion = obj
+      self.discussion = obj
     when Motion     then
-      @discussion = obj.discussion
-      @motion = obj
+      self.discussion = obj.discussion
+      self.motion = obj
     end
   end
 

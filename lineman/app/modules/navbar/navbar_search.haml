@@ -3,9 +3,9 @@
     %i.fa.fa-lg.fa-fw.fa-search
   .dropdown-menu.loomio-nav-dropdown#search-dropdown{role: 'menu'}
     .navbar-search-input
-      %input.form-control{ng-click: '$event.stopPropagation()', ng-model: 'query', ng-change: 'getSearchResults(query)', ng-model-options="{debounce: 300}", placeholder: "{{ 'navbar.search_placeholder' | translate }}"}
-    %ul.selector-list{ng-show: '(availableGroups() | filter: { name: query }).length > 0'}
-      %li.selector-list-header
+      %input.form-control{ng-click: '$event.stopPropagation()', ng-model: 'query', ng-change: 'getSearchResults(query)', ng-model-options: "{debounce: 300}", placeholder: "{{ 'navbar.search.placeholder' | translate }}"}
+    %ul.selector-list
+      %li.selector-list-header{ng-show: '(availableGroups() | filter: { name: query }).length > 0'}
         %h3{translate: "common.groups"}
       %li.selector-list-item.media{ng_repeat: 'group in availableGroups() | filter: { name: query } | orderBy: "fullName()"', class: 'is-subgroup-{{group.parentId != null}}'}
         %a.selector-list-item-link{href: '/g/{{group.key}}'}
@@ -13,8 +13,10 @@
             %img.selector-list-item-group-logo{src: "{{group.logoUrl()}}"}
           .selector-list-item-group-name.media-body {{group.fullName()}}
       %li.selector-list-header{ng-show: 'query'}
-        %h3{translate: "navbar.search_results"}
-      %li.selector-list-item.search-loading{ng-show: 'searching', translate: 'navbar.search_loading'}
-      %li.selector-list-item.no-results-found{ng-show: 'noResultsFound()', translate: 'navbar.no_results_found'}
-      %li.selector-list-item.media{ng-hide: 'searching', ng-repeat: 'result in searchResults | orderBy: "priority"'}
-        {{result.discussion().title}}
+        %h3{translate: "navbar.search.search_results"}
+      %li.selector-list-item.search-loading{ng-show: 'searching', translate: 'navbar.search.loading'}
+      %li.selector-list-item.no-results-found{ng-show: 'noResultsFound()', translate: 'navbar.search.no_results'}
+      %li.selector-list-item.media{ng-hide: 'searching', ng-repeat: 'searchResult in searchResults | orderBy: "priority"'}
+        %navbar_search_discussion{ng-show: 'searchResult.isDiscussion()', discussion: 'searchResult.result()'}
+        %navbar_search_proposal{ng-show: 'searchResult.isProposal()', proposal: 'searchResult.result()'}
+        %navbar_search_comment{ng-show: 'searchResult.isComment()', comment: 'searchResult.result()'}

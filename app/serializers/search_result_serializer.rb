@@ -1,15 +1,39 @@
 class SearchResultSerializer < ActiveModel::Serializer
   embed :ids, include: true
-  attributes :priority, :query
+  attributes :priority, :query, :result_id, :result_type
 
-  has_one :discussion, serializer: DiscussionSerializer, root: 'discussions'
-  has_one :motion, serializer: MotionSerializer, root: 'proposals'
+  has_one :result, polymorphic: true
+  has_one :proposal, serializer: MotionSerializer, root: 'proposals'
 
-  def include_discussion?
-    object.discussion.present?
+  def result_id
+    result.id
   end
 
-  def include_motion?
-    object.motion.present?
+  #                     I am a crusty crustacean!
+  #  /==>           _ /
+  # //      >>>/---{_
+  # \==::[[[[|:     _
+  #         >>>\---{_
+  #
+  # (Maybe we should consider moving the motion/proposal line a little.)
+
+  def result_type
+    case result
+    when Motion then 'Proposal'
+    else result.class.to_s
+    end
   end
+
+  def proposal
+    result
+  end
+
+  def include_proposal?
+    result_type == 'Proposal'
+  end
+
+  def include_result?
+    !include_proposal?
+  end
+
 end

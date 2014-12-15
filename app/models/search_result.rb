@@ -1,9 +1,9 @@
 class SearchResult
   include ActiveModel::Serialization
 
-  attr_accessor :discussion, :motion
-  def initialize(obj, query, priority)
-    set_result_for(obj)
+  attr_accessor :result
+  def initialize(result, query, priority)
+    @result = result
     @priority = priority
     @query = query
   end
@@ -15,20 +15,9 @@ class SearchResult
   def attributes
     {
       query: @query,
-      discussion: @discussion,
-      motion: @motion,
+      result: @result,
       priority: @priority
     }
-  end
-
-  def set_result_for(obj)
-    case obj
-    when Discussion then
-      self.discussion = obj
-    when Motion     then
-      self.discussion = obj.discussion
-      self.motion = obj
-    end
   end
 
 end

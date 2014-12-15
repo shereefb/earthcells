@@ -37,10 +37,11 @@ en:
     edit_comment: 'Edit comment'
 
   navbar:
-    search_placeholder: 'Search for groups or threads'
-    search_loading: 'Loading results...'
-    search_results: 'Search results'
-    no_results_found: 'No results found'
+    search:
+      placeholder: 'Search for groups or threads'
+      loading: 'Loading results...'
+      search_results: 'Search results'
+      no_results: 'No results found'
 
   notifications:
     header: "Notifications"

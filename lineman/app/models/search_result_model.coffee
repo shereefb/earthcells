@@ -6,11 +6,16 @@ angular.module('loomioApp').factory 'SearchResultModel', (BaseModel) ->
     initialize: (data) ->
       @query = data.query
       @priority = data.priority
-      @discussionId = data.discussion_id
-      @proposalId = data.proposal_id
+      @resultId = data.result_id
+      @resultType = data.result_type
 
-    discussion: ->
-      @recordStore.discussions.find(@discussionId)
+    isDiscussion: -> @resultType == 'Discussion'
+    isProposal:   -> @resultType == 'Proposal'
+    isComment:    -> @resultType == 'Comment'
 
-    proposal: ->
-      @recordStore.proposals.find(@proposalId)
+    result: ->
+      switch @resultType
+        when 'Group'      then @recordStore.groups.find(@resultId)
+        when 'Discussion' then @recordStore.discussions.find(@resultId)
+        when 'Proposal'   then @recordStore.proposals.find(@resultId)
+        when 'Comment'    then @recordStore.comments.find(@resultId)

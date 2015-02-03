@@ -60,7 +60,7 @@ module ApplicationHelper
     result = ""
     result += "(#{notification_size}) " if notification_size > 0
     result += content_for(:title) + " | " if content_for?(:title)
-    result += "Loomio"
+    result += "Earthcells"
     result
   end
 

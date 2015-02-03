@@ -23,8 +23,7 @@ module LocalesHelper
   end
 
   def default_locale
-    I18n.en
-    # I18n.default_locale
+    I18n.default_locale
   end
 
   def current_locale

@@ -26,7 +26,7 @@ en:
     product:
       header_html: 'Faced with <strong>complex gobal issues</strong>, we need an <strong>intelligent distributed response</strong>.'
       step1:
-        header: '1. Start/Join an EarthCell'
+        header: '1. Start or Join'
         desc: 'Meet regularly with a group of people, and hold yourself and eachother accountable to meaningful action.'
       step2:
         header: '2. Reproduce'

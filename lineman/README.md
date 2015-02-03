@@ -4,7 +4,7 @@ AngularJS parts of Loomio. It is assumed that you have the rails parts
 of loomio running already.
 
 # Installing Node
-Install the latest version of node.js for your system. Go find out how.
+Install the latest version of node.js for your system. (Some of us quite like [NVM](https://github.com/creationix/nvm))
 
 # Installing Bower & Lineman
 
@@ -28,7 +28,8 @@ Then start lineman
 
 
 # Browsing
-First go to the rails app (localhost:3000) and sign in. Now you can use the javascript app at localhost:8000. Just navigate to a discussion (e.g. localhost:8000/discussions/325).
+First go to the rails app [localhost:3000](localhost:3000) and sign in. Now you can use the javascript app at [localhost:8000](localhost:8000). Just navigate to a discussion (e.g. localhost:8000/discussions/325).
+*NB, currently you can also visit [localhost:8000/angular](localhost:8000/angular) to visit the javascript app.*
 
 # Unit Testing
 We're going for high test coverage of our JS frontend here.
@@ -46,22 +47,17 @@ To run the integration tests, you'll need Protractor and Webdriver-manager
   `$ npm install -g protractor`
   `$ webdriver-manager update --standalone`
 
-## Running the cucmber tests
+## Running e2e tests
 
-To run the cucumber tests, you need a bit of environment running. It's
+To run the e2e tests, you need a bit of environment running. It's
 probably easiest if you run these each in their own terminal window.
 
-  From the project root:
+  From the loomio folder:
   `$ rails s`
 
-  From the lineman folder:
+  From the loomio/lineman folder:
   `$ lineman run`
   `$ webdriver-manager start`
 
   Then finally to run the tests:
-  `$ lineman grunt cucumberjs`
-
-  grunt-cucumberjs does not support the coffeescript flag in the
-  latest version of cucumber.js Sooo.. rather than the above line..
-  I have an alias for: 'node node_modules/cucumber/bin/cucumber.js --require features/step_definitions --coffee'
-  In my shell profile, so I can run the cukes with "cjs" from the command line in my workflow and get coffeescript pending step definitations
+  `$ lineman grunt spec-e2e`

@@ -1,5 +1,13 @@
+require 'gollum/app'
+
 Loomio::Application.routes.draw do
 
+  # Gollum support
+  Precious::App.set(:gollum_path, Rails.root.join('wiki').to_s)
+  Precious::App.set(:default_markup, :markdown) # set your favorite markup language
+  Precious::App.set(:wiki_options, {:universal_toc => false})
+  mount Precious::App, at: 'wiki'
+   
   scope '/angular_support', controller: 'angular_support', path: 'angular_support', as: 'angular_support' do
     get 'setup_for_invite_people'
     get 'setup_for_add_comment'

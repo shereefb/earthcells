@@ -33,7 +33,7 @@
           %li.dropdown#groups
             %a.dropdown-toggle.groups-dropdown-btn{href: "#", 'data-toggle' => 'dropdown'}
               %i.fa.fa-group
-              %span.hidden-xs= t :"common.groups"
+              %span.hidden-xs
             %ul.dropdown-menu
               #group-dropdown-items
               - if current_user.show_start_group_button?
@@ -46,7 +46,7 @@
           %ul.nav.navbar-nav
             .user-options.visible-xs
               = render 'application/user_profile_options'
-            = render 'search'
+            /= render 'search'
 
         %ul.nav.navbar-nav.navbar-right.hidden-xs
           = render 'user_dropdown'

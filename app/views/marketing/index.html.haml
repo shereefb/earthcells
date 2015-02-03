@@ -76,7 +76,7 @@
                   = image_tag 'braid.png', {class: 'top'}
                 %h2= t(:'frontpage.product.step3.header')
                 %p= t(:'frontpage.product.step3.desc')
-          .col-xs-12#product-carousel.content.product-carousel.carousel.slide{"data-ride" => 'carousel'}
+          .col-xs-12#product-carousel.content.product-carousel.carousel.slide.hidden{"data-ride" => 'carousel'}
             .carousel-inner
               .item.active
                 = image_tag 'ipad-1.png', alt: 'Earthcells 1.0 discussion mockup'
@@ -95,11 +95,11 @@
         = link_to new_group_request_path, class: 'block-link js-not-yet-row' do
           .content
             %h1= t(:'frontpage.prototype.header_html')
-            %h2
-              = t(:'frontpage.link.check_out_loomio_beta')
-              %i.fa.fa-angle-right
+            / %h2
+            / = t(:'frontpage.link.check_out_loomio_beta')
+            /  %i.fa.fa-angle-right
 
-      .row.prototype
+      .row.prototype.hidden
         #prototype-carousel.content.prototype-carousel.carousel.slide{"data-ride" => 'carousel'}
           .carousel-inner
             .item.active
@@ -139,7 +139,7 @@
           %a.carousel-control.right-ctrl{href: '#prototype-carousel', "data-slide" => 'next'}
             %i.fa.fa-angle-right
 
-      .row.groups
+      .row.groups.hidden
         .content
           .group-tab.col-md-3#genzero.active
             .group.active
@@ -153,27 +153,27 @@
           .group-tab.col-md-3#nvc
             .group
               = image_tag 'nvc-logo.png', alt: "Generation Zero"
-      .row.links
+      .row.links.hidden
         .content
           %p.hero-text= t(:'frontpage.prototype.subhead_html', try_loomio_link: new_group_request_path, donate_link: 'https://love.Earthcells.org')
 
       .row.quote
         .content.rushkoff
-          %blockquote= t(:'frontpage.quote.header.rushkoff_html')
+          %blockquote= t(:'frontpage.quote.header.einstein_html')
 
-      .row.mobile
+      .row.mobile.hidden
         .content
           .col-md-6.mobile-header
             %h1=t(:'frontpage.mobile.header_html')
 
-      .row.quote
+      .row.quote.hidden
         .content.sifry
           %blockquote= t(:'frontpage.quote.header.sifry_html')
 
-      .row
+      .row.hidden
         = image_tag 'team.png', class: 'img-responsive full-width', alt: 'The Earthcells team'
 
-      .row.team
+      .row.team.hidden
         %a{href: about_path, class: 'block-link'}
           .content
             %h1= t(:'frontpage.team.header')
@@ -206,12 +206,12 @@
               %p.gift= t(:'frontpage.ideals.gift.desc')
 
       .row.vision
-        = link_to 'https://love.earthcells.net', class: 'block-link js-not-yet-row' do
+        = link_to new_group_request_path, class:'block-link js-not-yet-row' do
           .content
             %h1= t(:'frontpage.vision.header')
-            %h2
-              = t(:'frontpage.link.donate')
-              %i.fa.fa-angle-right
+            / %h2
+            /               = t(:'frontpage.link.try_it')
+            /               %i.fa.fa-angle-right
 
       .row.media
         .content
@@ -225,14 +225,10 @@
                 = t :'frontpage.link.top'
                 %i.fa.fa-angle-up
           %ul.pull-right
-            %li= link_to t(:'frontpage.link.public_groups'), explore_path
+            / %li= link_to t(:'frontpage.link.public_groups'), explore_path
             %li= link_to t(:'frontpage.link.terms'), terms_of_service_path
             %li= link_to t(:'frontpage.link.privacy'), privacy_path
-            %li= link_to t(:'frontpage.link.press'), 'http://blog.earthcells.net/press-pack', class: 'press'
-            %li.enspiral
-              %a{href: 'http://www.enspiral.com'}
-                = image_tag 'enspiral.png', alt: 'Enspiral'
-
+            / %li= link_to t(:'frontpage.link.press'), 'http://blog.earthcells.net/press-pack', class: 'press'
 
     = javascript_include_tag "marketing"
     = render 'heap_analytics'

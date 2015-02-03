@@ -11,57 +11,58 @@ en:
       try_it: 'Try it'
       log_in: 'LOG IN'
       video: "See more about how Earthcells works"
-      try_loomio_beta: 'Try out Earthcells beta'
-      check_out_loomio_beta: 'Check out Earthcells beta'
+      try_loomio_beta: 'Try out Earthcells'
+      check_out_loomio_beta: 'Check out Earthcells'
       more: 'More'
       top: 'Top'
-      public_groups: 'Public groups'
+      public_groups: 'Public earthcells'
       terms: 'Terms'
       privacy: 'Privacy'
       services: 'Services'
     hero:
-      head_html: 'The world needs a better way to <strong>make decisions together</strong>.'
-      desc_html: 'Earthcells is free and <a href="https://github.com/loomio/loomio">open source</a> software for anyone, anywhere, to participate in decisions that affect them.'
+      head_html: 'The world needs a better way to <strong>take action together</strong>.'
+      desc_html: 'Earth cells are a means of sustaining <strong>personal engagement</strong> and supporting <strong>viral collective action</strong>.
+      '
     product:
-      header_html: 'When we hear <strong>all voices</strong>, we make <strong>better decisions</strong>.'
+      header_html: 'Faced with <strong>complex gobal issues</strong>, we need an <strong>intelligent distributed response</strong>.'
       step1:
-        header: '1. Talk things through'
-        desc: 'Startxxx a discussion on any topic, and bring in the right people. Share diverse perspectives and develop ideas together.'
+        header: '1. Start/Join an EarthCell'
+        desc: 'Meet regularly with a group of people, and hold yourself and eachother accountable to meaningful action.'
       step2:
-        header: '2. Build agreement'
-        desc: 'Anyone can propose a course of action. People can agree, abstain, disagree, or block – so you can see how everyone feels, and why.'
+        header: '2. Reproduce'
+        desc: 'Enroll more members to your earthcell, and the cell splits.'
       step3:
-        header: '3. Decide together'
-        desc: 'Develop the proposal together so that it works for everyone. Every decision has a clear deadline, so you always get a clear outcome.'
+        header: '3. Mutate'
+        desc: 'Earthcells can change their rules of engagement. Over time, the best solutions evolve.'
     crowdfunding:
         header: 'We’re crowdfunding so we can ﬁnish building this new platform and give it away to the world.'
     prototype:
-      header_html: "We’ve already built a prototype, and people all over the world are doing amazing things with it"
-      subhead_html: '<a href="%{try_loomio_link}">Try Earthcells Beta</a> now. Or you can <a href="%{donate_link}">support the project</a> to help fund Earthcells 1.0'
+      header_html: "Our <strong>Common Purpose</strong> is an environmentally sustainable, socially just, and spiritually fullfilling world for all."
+      subhead_html: '<a href="%{try_loomio_link}">Try Earthcells</a> now. Or you can <a href="%{donate_link}">support the project</a> to help fund Earthcells 1.0'
     mobile:
       header_html: 'Earthcells 1.0 will work on any device, built with the best in <strong>open mobile technology.</strong>'
     quote:
       header:
-        rushkoff_html: '“Earthcells <strong>unleashes the internet’s potential</strong> to bring people towards consensus rather than polarized debate.”<div class="attributation">– <a href="http://rushkoff.com">Douglas Rushkoff</a>, author of <em>Present Shock</em></div>'
+        einstein_html: '“The world will not be destroyed by those who do harm. But by those who watch them without doing anything.”<div class="attributation">– Albert Einstein</div>'
         sifry_html: '“Earthcells is hitting a sweet spot between <strong>individual voice</strong> and <strong>collective decision</strong>.”<div class="attributation">– Micah Sifry, Editor, <em><a href="http://techpresident.com">TechPresident</a></em></div>'
     team:
       header: 'About Earthcells'
       desc: 'We’re a small team of open-source developers and social justice activists working at Enspiral in Aotearoa New Zealand, with a wider network of friends, supporters and advisors all over the world.'
     ideals:
       community:
-        header: 'Community driven cooperative'
-        desc: 'Earthcells is built by a worker-owned cooperative. We’re a social enterprise working to maximise positive social impact, not proﬁt.'
+        header: 'Community driven'
+        desc: 'Earthcells is not a legal entity. It is a grass-roots, community-driven social contract.'
       independent:
         header: 'Independent and neutral'
-        desc: 'We maintain a space for any group to come together, that is independent of political or corporate interest. We will never sell your data.'
+        desc: 'We maintain a space for any group to come together, that is independent of political or corporate interest as long as it serves the common purpose.'
       open:
         header: 'Free and open software'
         desc: 'Earthcells’s code is a public resource that anyone can run, read, learn from, modify and redistribute.'
       gift:
         header: 'Gift economy'
-        desc: 'Earthcells is supported by those who pay according to their means. This keeps the platform free of advertising and accessible to groups with no money.'
+        desc: 'Earthcells is a non-commercial organism. No money exchanges hands, and all efforts are volunteered.'
     vision:
-      header: 'Help us turn this vision into a reality.'
+      header: 'Join or start an earthcell today.'
 
 
 

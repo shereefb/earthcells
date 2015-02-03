@@ -70,7 +70,7 @@ en:
     contribution: "Please log in to make a contribution."
     discussion_not_created: "Discussion could not be created."
     discussion_not_moved: "You don't have permission to move this discussion to %{destination_group.name}"
-    group_not_archived: "Group could not be archived."
+    group_not_archived: "Earthcell could not be archived."
     invalid_close_date: "Invalid close date, please check this date has not passed."
     invalid_email: "Please enter at least one valid email address"
     image_upload_fail: "Unable to upload picture. Make sure the picture is under 1 MB and is a .jpeg, .png, or .gif file."
@@ -84,7 +84,7 @@ en:
     settings_not_updated: "Your settings did not get updated."
     group_request_already_accepted: "Sorry! This invitation is invalid or has already been accepted."
     group_request_invalid_token: "Sorry! This is an invalid token"
-    group_private_or_not_found: "Group not found. \n\nThis earthcell might be private. If someone gave you this link, ask them to invite you to the earthcell."
+    group_private_or_not_found: "Earthcell not found. \n\nThis earthcell might be private. If someone gave you this link, ask them to invite you to the earthcell."
     group_already_setup: "The earthcell you are trying to setup already exists."
     passwords_did_not_match: "Password did not match confirmation"
     proposal_already_exists: "There is already an open proposal in this discussion."
@@ -149,8 +149,8 @@ en:
     discussion_deleted: "Discussion successfully deleted."
     discussion_moved: "Discussion successfully moved to %{group_name}"
     emails_sending: "Emails sending."
-    group_archived: "Group archived successfully."
-    group_created: "Group created successfully."
+    group_archived: "Earthcell archived successfully."
+    group_created: "Earthcell created successfully."
     members_added: "Members added to earthcell."
     membership_requested: "You've asked to join %{which_group}. You will be notified once your request has been approved."
     motion_closed: "Proposal closed. If you like, you can set an outcome below and send it to your earthcell."
@@ -306,7 +306,7 @@ en:
 
 
   group_form:
-    name: "Group name"
+    name: "Earthcell name"
     description: "Description"
     category: "Category"
 
@@ -354,7 +354,7 @@ en:
     learn_about_permissions: Find out more about earthcell permissions
 
   group_permissions:
-    header: Group permissions
+    header: Earthcell permissions
     coordinators_can: "Coordinators can:"
     c1: Change the earthcell settings
     c2: Edit the title and context of any discussion.
@@ -468,14 +468,14 @@ en:
   new_group: "New earthcell"
   create_group: "Create earthcell"
   creating_group: "Creating earthcell"
-  edit_group: "Edit Group"
+  edit_group: "Edit earthcell"
   update_group: "Update earthcell"
   updating_group: "Updating earthcell"
 
   start_a_discussion: "Start a discussion"
-  group_description: "Group description"
+  group_description: "Earthcell description"
   edit_group_description: "Edit earthcell description"
-  group_subscription: "Group subscription"
+  group_subscription: "Earthcell subscription"
 
   groups:
     follow:
@@ -491,7 +491,7 @@ en:
   group_request:
     beta_request_header: "Start an earthcell"
     beta_request_description: "To start making decisions on Earthcells Beta, the first step is to start an earthcell"
-    neighbourhood_support_group: "e.g. Neighbourhood Support Group"
+    neighbourhood_support_group: "e.g. Neighbourhood Support Earthcell"
     commercial_use_option: in a company, formal organisation or workplace
     non_commercial_use_option: in a community earthcell or informal network
     please_select_an_option: Please select an option
@@ -721,7 +721,7 @@ en:
       for information on how to use Markdown.</p>
     keep_up_to_date: "Keep up to date"
     keep_up_to_date_html: |
-      <p>Clicking your earthcell name at the top of the screen takes you to your Group Page,
+      <p>Clicking your earthcell name at the top of the screen takes you to your Earthcell Page,
       where you can see a list of all the discussions and decisions for that earthcell. If
       you’re in more than one earthcell, you can see all the activity in all of your earthcells
       at once on the Home Page.</p>
@@ -768,8 +768,8 @@ en:
 
   pricing_page:
     intro: |
-      Groups with a budget pay a subscription for using the tool.
-      Groups without the means to pay a subscription use the
+      Earthcells with a budget pay a subscription for using the tool.
+      Earthcells without the means to pay a subscription use the
       Pay What You Can model: their members are invited to make a voluntary contribution.      Your contribution means we can keep Earthcells independent, free of advertising, and driven by our community.
     organisations: Organisations
     organisations_examples: e.g. businesses, government agencies, community organisations
@@ -1194,8 +1194,8 @@ en:
   enable: "Enable"
   participation: "Participation"
   disable: "Disable"
-  group: "Group"
-  group_admin: "Group Coordinator"
+  group: "Earthcell"
+  group_admin: "Earthcell Coordinator"
   home: "Home"
   id: "id"
   like: "Like"
@@ -1251,7 +1251,7 @@ en:
     not_following: Not following
     back_to_discussion: "Back to discussion"
     edited: Edited
-    groups: "Groups"
+    groups: "Earthcells"
     select_error: Please select an option
     today: Today
     select: Please select

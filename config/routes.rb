@@ -288,7 +288,7 @@ Loomio::Application.routes.draw do
   get '/contributions' => redirect('/crowd')
   get '/contributions/thanks' => redirect('/crowd')
   get '/contributions/callback' => redirect('/crowd')
-  get '/crowd' => redirect('https://love.loomio.org/')
+  get '/crowd' => redirect('https://love.earthcells.net/')
   get '/groups' => redirect('/explore')
 
   get '/dashboard', to: 'dashboard#show', as: 'dashboard'
@@ -310,14 +310,14 @@ Loomio::Application.routes.draw do
   end
 
   constraints(GroupSubdomainConstraint) do
-    get '/about' => redirect('https://www.loomio.org/about')
-    get '/privacy' => redirect('https://www.loomio.org/privacy')
-    get '/purpose' => redirect('https://www.loomio.org/purpose')
-    get '/services' => redirect('https://www.loomio.org/services')
-    get '/terms_of_service' => redirect('https://www.loomio.org/terms_of_service')
-    get '/third_parties' => redirect('https://www.loomio.org/third_parties')
-    get '/try_it' => redirect('https://www.loomio.org/try_it')
-    get '/wallets' => redirect('https://www.loomio.org/wallets')
+    get '/about' => redirect('https://app.earthcells.net/about')
+    get '/privacy' => redirect('https://app.earthcells.net/privacy')
+    get '/purpose' => redirect('https://app.earthcells.net/purpose')
+    get '/services' => redirect('https://app.earthcells.net/services')
+    get '/terms_of_service' => redirect('https://app.earthcells.net/terms_of_service')
+    get '/third_parties' => redirect('https://app.earthcells.net/third_parties')
+    get '/try_it' => redirect('https://app.earthcells.net/try_it')
+    get '/wallets' => redirect('https://app.earthcells.net/wallets')
   end
 
   scope controller: 'help' do
@@ -346,7 +346,7 @@ Loomio::Application.routes.draw do
   get '/contributions'      => redirect('/crowd')
   get '/contributions/thanks' => redirect('/crowd')
   get '/contributions/callback' => redirect('/crowd')
-  get '/crowd'              => redirect('https://love.loomio.org/')
+  get '/crowd'              => redirect('https://love.earthcells.net/')
 
   scope path: 'pages' do
     get 'home'         => redirect('/')
@@ -361,11 +361,11 @@ Loomio::Application.routes.draw do
   get '/how*it*works'       => redirect('/purpose#how-it-works')
   get '/about#how-it-works' => redirect('/purpose#how-it-works')
 
-  get '/blog'       => redirect('http://blog.loomio.org')
-  get '/press'      => redirect('http://blog.loomio.org/press-pack')
-  get '/press-pack' => redirect('http://blog.loomio.org/press-pack')
+  get '/blog'       => redirect('http://blog.earthcells.net')
+  get '/press'      => redirect('http://blog.earthcells.net/press-pack')
+  get '/press-pack' => redirect('http://blog.earthcells.net/press-pack')
   get '/roadmap'    => redirect('https://trello.com/b/tM6QGCLH/loomio-roadmap')
-  get '/community'  => redirect('https://www.loomio.org/g/WmPCB3IR/loomio-community')
+  get '/community'  => redirect('https://app.earthcells.net/g/WmPCB3IR/loomio-community')
   get '/timeline'   => redirect('http://www.tiki-toki.com/timeline/entry/313361/Loomio')
 
   get '/robots'     => 'robots#show'

@@ -86,7 +86,7 @@
     = render 'setup_next_steps' if show_next_steps?(@group)
     = render 'follow', group: @group
 
-    = render 'subgroups', group: @group
+    /= render 'subgroups', group: @group
 
     - if @closed_motions.any?
       .panel.panel-default.previous-discussions-panel

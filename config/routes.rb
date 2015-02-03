@@ -292,6 +292,7 @@ Loomio::Application.routes.draw do
   get '/groups' => redirect('/explore')
 
   get '/dashboard', to: 'dashboard#show', as: 'dashboard'
+  get '/users', to: 'dashboard#show'
 
   constraints(MainDomainConstraint) do
     scope controller: 'pages' do

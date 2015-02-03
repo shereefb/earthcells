@@ -21,7 +21,6 @@ Session.vim
 screenshots/
 .env
 .idea
-
 /lineman/node_modules
 /lineman/dist
 /lineman/generated
@@ -29,3 +28,6 @@ screenshots/
 /lineman/app/css/modules.scss
 .powenv
 /lineman/app/css/modules.scss
+
+/wiki
+

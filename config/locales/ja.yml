@@ -234,7 +234,7 @@ ja:
   confirm_leave_hidden_group: "本当に %{which_group} を離れたいですか？　副グループからも削除されます。"
   confirm_leave_group: "%{which_group} を本当に離れたいですか？"
   deactivate_group: "グループを無効にします"
-  confirm_deactivate_group: "待ってください！\n本当に %{which_group} を無効にしたいですか？\nグループを閲覧することができなくなります。\nグループに戻りたい場合、再有効化させるために contact@loomio.org にEメールを送ってください。"
+  confirm_deactivate_group: "待ってください！\n本当に %{which_group} を無効にしたいですか？\nグループを閲覧することができなくなります。\nグループに戻りたい場合、再有効化させるために contact@earthcells.net にEメールを送ってください。"
   invited_users: "招待されたメンバー"
   members: "メンバー"
   confirm_remove_user: "本当にグループから %{which_user} を削除したいですか？"
@@ -289,7 +289,7 @@ ja:
       body_html: |
         グループを開始する招待をメールで送りました。
 
-        数分後にあなたの受信箱に何も見つからなかった場合は、<a href='mailto:contact@loomio.org'>contact@loomio.org</a> にメールを送ってください。
+        数分後にあなたの受信箱に何も見つからなかった場合は、<a href='mailto:contact@earthcells.net'>contact@earthcells.net</a> にメールを送ってください。
   discussion_items:
     new_discussion: "ディスカッションを作成しました"
     new_motion: "提案を作成しました"
@@ -430,13 +430,13 @@ ja:
       <p>あなたがLoomioに参加するよう誰かを招待をする前に、始めにグループと相談するのがいいでしょう</p>
       <p>メンバーはどうして自分たちが招待されたのか、何を期待されているのか、どうして新しいツールの使い方を学ぶ価値があるのか知りたいでしょう</p>
     join_the_community: "コミュニティに参加する"
-    join_the_community_description_html: "ツールを有効化する方法や、改良する方法を話し合うLoomioコミュニティへの参加を誰でも歓迎します\n<br /><br /><a href='https://www.loomio.org/groups/3'>Loomioコミュニティに行くにはここをクリック</a>."
+    join_the_community_description_html: "ツールを有効化する方法や、改良する方法を話し合うLoomioコミュニティへの参加を誰でも歓迎します\n<br /><br /><a href='https://www.earthcells.net/groups/3'>Loomioコミュニティに行くにはここをクリック</a>."
     images_and_text_formatting: "画像とテキストのフォーマット"
     images_and_text_formatting_html: |
       <p>Loomioは画像組み込みとテキストフォーマットに"マークダウン"を使用します
       コメントボックスの下にある灰色の小さなアイコンでマークダウンをオンにできます</p>
       マークダウンの使用法について知りたい場合は
-      <p><a href='https://www.loomio.org/discussions/1124'>ここをクリック</a>
+      <p><a href='https://www.earthcells.net/discussions/1124'>ここをクリック</a>
       してください
     keep_up_to_date: "最新状態を保つ"
     keep_up_to_date_html: |
@@ -507,7 +507,7 @@ ja:
 
       誰でもLoomioコミュニティへの参加が歓迎されます。Loomioコミュニティは、そのツールを最大限に活かす方法、そしてどのように改良できるかについて話す場です。
 
-      <a href='https://www.loomio.org/groups/3'>Loomioコミュニティグループ & raquoにジャンプする</a>
+      <a href='https://www.earthcells.net/groups/3'>Loomioコミュニティグループ & raquoにジャンプする</a>
     making_a_donation: 寄付をする
     making_a_donation_description: "Loomioは、影響を持つ決定に誰でも参加しやすくするために働いている社会事業組合です。 \nあなたの寄付は、私たちが広告のないLoomioの独立を維持し、コミュニティの中で素晴らしいことを行っているグループに自由に利用可能になるということを意味しています。\n\n これを実現させていただいて、ありがとうございます！\n"
   new_password: "新しいパスワード"
@@ -547,7 +547,7 @@ ja:
     alternate: "代わりにこのリンクをシェアして、参加するように誰でも要求できるようにする："
     by_email: "Eメールで招待を送る"
     no_invitations_left: "(*_ _)人ゴメンナサイ　招待はありません"
-    no_invitations_left_get_more: "contact@loomio.org にメールを送ってください\nあなたを助けるために何ができるか考えます"
+    no_invitations_left_get_more: "contact@earthcells.net にメールを送ってください\nあなたを助けるために何ができるか考えます"
     invitation_not_found: 'そのトークンでは招待を見つけられませんでした。送信者に新しい招待を要求してください'
     invitation_cancelled: 'この招待はキャンセルされました。エラーによるものだと考えられる場合、招待の送信者に連絡を取ってください'
     invitation_already_used: 'この招待はすでに使われています。あなたのグループにとどまるにはログインしてください'

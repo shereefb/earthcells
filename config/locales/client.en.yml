@@ -341,12 +341,12 @@ en:
       <p>People will want to know why they’ve been invited, what’s expected of them,
       and why it’s worth their time to learn how to use a new tool.</p>
     join_the_community: "Join the community"
-    join_the_community_description_html: "Everyone is welcome to join the Loomio Community, where we talk about how to make the most of the tool, and how it can be improved.<br /><br /><a href='https://www.loomio.org/g/WmPCB3IR'>Click here to go the Loomio Community group</a>."
+    join_the_community_description_html: "Everyone is welcome to join the Loomio Community, where we talk about how to make the most of the tool, and how it can be improved.<br /><br /><a href='https://www.earthcells.net/g/WmPCB3IR'>Click here to go the Loomio Community group</a>."
     images_and_text_formatting: "Images and text formatting"
     images_and_text_formatting_html: |
       <p>Loomio uses ‘Markdown’ for image embedding and text formatting.
       You can switch Markdown on with the small grey icon under the comment box.</p>
-      <p><a href='https://www.loomio.org/discussions/1124'>Click here</a>
+      <p><a href='https://www.earthcells.net/discussions/1124'>Click here</a>
       for information on how to use Markdown.</p>
     keep_up_to_date: "Keep up to date"
     keep_up_to_date_html: |

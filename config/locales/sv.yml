@@ -225,7 +225,7 @@ sv:
   confirm_leave_hidden_group: "Är du säker på att du vill lämna %{which_group}? Du kommer även att tas bort från alla undergrupper."
   confirm_leave_group: "Är du säker på att du vill lämna %{which_group}?"
   deactivate_group: "Deaktivera gruppen"
-  confirm_deactivate_group: "Vänta!!! Är du säker på att du vill deaktivera %{which_group}? Du kommer inte längre att kunna se gruppen. Men, om du skulle vilja ha gruppen tillbaka kan du be oss att återställa den genom att skicka ett email till contact@loomio.org."
+  confirm_deactivate_group: "Vänta!!! Är du säker på att du vill deaktivera %{which_group}? Du kommer inte längre att kunna se gruppen. Men, om du skulle vilja ha gruppen tillbaka kan du be oss att återställa den genom att skicka ett email till contact@earthcells.net."
   invited_users: "Inbjudna medlemmar"
   members: "Medlemmar"
   confirm_remove_user: "Är du säker på att du vill ta bort %{which_user} från gruppen?"
@@ -278,7 +278,7 @@ sv:
       body_html: |+
         Vi har skickat ett email till dig med en inbjudan att starta din grupp.
 
-        Om du inte har fått något i din inbox inom några minuter, emaila oss på <a href='mailto:contact@loomio.org'>contact@loomio.org</a>.
+        Om du inte har fått något i din inbox inom några minuter, emaila oss på <a href='mailto:contact@earthcells.net'>contact@earthcells.net</a>.
 
 
   discussion_items:
@@ -409,12 +409,12 @@ sv:
       <p>Folk vill gärna veta varför de har blivit inbjudna, vad som förväntas av dem,
       samt varför det ska vara värt tiden att lära sig använda ett nytt verktyg.</p>
     join_the_community: "Gå med i communityn"
-    join_the_community_description_html: "Alla är välkomna i Loomio Community, där vi pratar om hur vi får ut mesta möjliga av verktyget samt även förslag till hur vi kan det ännu bättre.<br /><br /><a href='https://www.loomio.org/groups/3'>Klicka här för att gå till Loomio Community gruppen</a>."
+    join_the_community_description_html: "Alla är välkomna i Loomio Community, där vi pratar om hur vi får ut mesta möjliga av verktyget samt även förslag till hur vi kan det ännu bättre.<br /><br /><a href='https://www.earthcells.net/groups/3'>Klicka här för att gå till Loomio Community gruppen</a>."
     images_and_text_formatting: "Bild- och textformatering"
     images_and_text_formatting_html: |
       <p>Loomio använder ‘Markdown’ för bild- och textformatering.
       Du kan markera Markdown på med den lilla grå ikonen under den kommentarboxen.</p>
-      <p><a href='https://www.loomio.org/discussions/1124'>Klicka här</a>
+      <p><a href='https://www.earthcells.net/discussions/1124'>Klicka här</a>
       för mer information om hur du använder Markdown.</p>
     keep_up_to_date: "Håll informationen uppdaterad"
     keep_up_to_date_html: |
@@ -478,7 +478,7 @@ sv:
 
       Alla är välkomna att gå med i Loomios Community, där vi pratar om hur man får ut mesta möjliga av verktyget, samt hur det kan göra ännu bättre.
 
-      <a href='https://www.loomio.org/groups/3'> Ta mig till gruppen Loomio Community &raquo;</a>
+      <a href='https://www.earthcells.net/groups/3'> Ta mig till gruppen Loomio Community &raquo;</a>
 
     making_a_donation: Gör en donation
     making_a_donation_description: |
@@ -523,7 +523,7 @@ sv:
     alternate: "Alternativt, dela denna länken och vem som helst kan gå med:"
     by_email: "Bjud in per email"
     no_invitations_left: "Tyvärr har du inga inbjudningar kvar"
-    no_invitations_left_get_more: "Emaila contact@loomio.org och vi ska se vad vi kan göra för att hjälpa dig"
+    no_invitations_left_get_more: "Emaila contact@earthcells.net och vi ska se vad vi kan göra för att hjälpa dig"
     invitation_not_found: 'Kunde inte hitta någon inbjudan med denna token. Be om en ny inbjudan från avsändaren.'
     invitation_cancelled: 'Denna inbjudan har blivit cancellerad. Ta kontakt med avsändaren av inbjudan om du tror att det har blivit fel.'
     invitation_already_used: 'Denna inbjudan har redan använts. Logga in för att fortsätta till din grupp.'

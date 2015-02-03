@@ -2,11 +2,11 @@ class AngularSupportController < ApplicationController
   before_filter :prevent_production_destruction
 
   USER_PARAMS = {name: 'Patrick Swayze',
-                 email: 'patrick_swayze@loomio.org',
+                 email: 'patrick_swayze@earthcells.net',
                  password: 'gh0st'}
 
   COMMENTER_PARAMS = {name: 'Jennifer Grey',
-                      email: 'jennifer_grey@loomio.org',
+                      email: 'jennifer_grey@earthcells.net',
                       password: 'gh0st'}
 
   GROUP_NAME = 'Dirty Dancing Shoes'

@@ -379,7 +379,7 @@ sk:
   confirm_leave_hidden_group: "Skutočne chcete opustiť %{which_group}? Budete tiež vylúčený(á) so všetkých podskupín."
   confirm_leave_group: "Skutočne chcete opustiť %{which_group}?"
   deactivate_group: "Deaktivovať skupinu"
-  confirm_deactivate_group: "Počkajte!!! Skutočne chcete deaktivovať %{which_group}? Nebudete naďalej môcť zobrazovať túto skupinu. Ak však budete chcieť skupinu získať späť, môžte nás požiadať emailom na contact@loomio.org, aby sme ju reaktivovali."
+  confirm_deactivate_group: "Počkajte!!! Skutočne chcete deaktivovať %{which_group}? Nebudete naďalej môcť zobrazovať túto skupinu. Ak však budete chcieť skupinu získať späť, môžte nás požiadať emailom na contact@earthcells.net, aby sme ju reaktivovali."
   invited_users: "Pozvaní členovia"
   members: "Členovia"
   confirm_remove_user: "Skutočne chcete odstrániť %{which_user} zo skupiny?"
@@ -443,7 +443,7 @@ sk:
       body_html: |
         Poslali sme vám email s pozvánkou k vytvoreniu vašej skupiny.
 
-        Pokiaľ nič nevidíte vo svojej prijatej pošte behom niekoľkých minút, napíšte nám na <a href='mailto:contact@loomio.org'>contact@loomio.org</a>.
+        Pokiaľ nič nevidíte vo svojej prijatej pošte behom niekoľkých minút, napíšte nám na <a href='mailto:contact@earthcells.net'>contact@earthcells.net</a>.
   thread_item:
     user_agreed_on_proposal_html: "<strong>%{name}</strong> súhlasil s návrhom."
     user_abstained_on_proposal_html: "<strong>%{name}</strong> sa zdržal hlasovania o návrhu."
@@ -609,12 +609,12 @@ sk:
       <p>Pred samotným pozvaním nových členov je dobré sa s nimi najprv porozprávať a objasniť
       im dôvody, pre ktoré by mali s členstvom v skupine súhlasiť.</p>
     join_the_community: "Staňte sa súčasťou komunity"
-    join_the_community_description_html: "Každý je vítaný stať sa členom Loomio komunitnej skupiny, kde sa diskutuje o tom, ako čo najefektívnejšie využiť funkcionalitu ktorú aplikácia ponúka a ako by sa dala táto zlepšiť.<br /><br /><a href='https://www.loomio.org/groups/3'>Navštívte Loomio komunitnú skupinu</a>."
+    join_the_community_description_html: "Každý je vítaný stať sa členom Loomio komunitnej skupiny, kde sa diskutuje o tom, ako čo najefektívnejšie využiť funkcionalitu ktorú aplikácia ponúka a ako by sa dala táto zlepšiť.<br /><br /><a href='https://www.earthcells.net/groups/3'>Navštívte Loomio komunitnú skupinu</a>."
     images_and_text_formatting: "Obrázky a formátovanie textu"
     images_and_text_formatting_html: |
       <p>Loomio používa ‘Markdown’ formát na vkladanie obrázkov a formátovanie štýlu textu.
       Do Markdown módu môžte prepnúť kliknutím na šedú ikonku pod poľom na vkladanie komentára.</p>
-      <p><a href='https://www.loomio.org/discussions/1124'>Kliknite sem</a>
+      <p><a href='https://www.earthcells.net/discussions/1124'>Kliknite sem</a>
       ak sa chcete dozvedieť ako používať Markdown.</p>
     keep_up_to_date: "Zostaňte informovaný(a)"
     keep_up_to_date_html: |
@@ -665,7 +665,7 @@ sk:
     thought_about_contributing_description: "Loomio je kooperatívny sociálny podnik, vytvárajúci nástroje umožňujúce každému \nzúčastňovať sa na rozhodnutiach, ktoré sa ich týkajú.\n\nPeniaze by nemali byť prekážkou v kolaboratívnom rozhodovacom procese. Loomio je financované\nz príspevkov jej členov a organizácií ktoré tento nástroj používajú.\n\nVaše príspevky nám umožňujú naďalej vyvíjať Loomio\
       \ bez toho aby na ňom boli umiestnované reklamy.\n\nĎakujeme, že nám pomáhate pri dosahovaní tohoto cieľa.\n"
     thank_you_title: Ďakujeme za priseniu k iniciatíve Loomio!
-    thank_you_body: "Váš príspevok nám pomáha pri vytváraní široko dostupného nástroja na kolektívne rozhodovanie.\n\nPo zaslaní vášho príspevku dostanete potvrdzujúcu emailovú správu s potvrdením.\n\nLoomio komunita je otvorená všetkým, ktorých zaujíma ako používať aplikáciu efektívne \na ako ju naďalej zlepšovať.\n\n<a href='https://www.loomio.org/groups/3'>Navštíviť Loomio komunitnú skupinu &raquo;</a>\n"
+    thank_you_body: "Váš príspevok nám pomáha pri vytváraní široko dostupného nástroja na kolektívne rozhodovanie.\n\nPo zaslaní vášho príspevku dostanete potvrdzujúcu emailovú správu s potvrdením.\n\nLoomio komunita je otvorená všetkým, ktorých zaujíma ako používať aplikáciu efektívne \na ako ju naďalej zlepšovať.\n\n<a href='https://www.earthcells.net/groups/3'>Navštíviť Loomio komunitnú skupinu &raquo;</a>\n"
     making_a_donation: Poskytnutie daru
     making_a_donation_description: "Loomio je kooperatívny sociálny podnik, vytvárajúci nástroje umožňujúce každému \nzúčastňovať sa na rozhodnutiach, ktoré sa ich týkajú.\n\nVaše príspevky nám umožňujú naďalej vyvíjať Loomio bez toho aby na ňom boli umiestnované reklamy.\n\nĎakujeme, že nám pomáhate pri dosahovaní tohoto cieľa.\n"
   resend_confirmation: "Znovu poslať pokyny na potvrdenie"
@@ -710,7 +710,7 @@ sk:
     alternate: "Prípadne zdieľajte tento odkaz a každý vás môže požiadať o členstvo:"
     by_email: "Pozvať emailom"
     no_invitations_left: "Ospravedlňujeme sa, ale neostávajú vám žiadne pozvánky"
-    no_invitations_left_get_more: "Prosím emailujte contact@loomio.org a uvidíme, čo môžme urobiť, aby sme vám pomohli"
+    no_invitations_left_get_more: "Prosím emailujte contact@earthcells.net a uvidíme, čo môžme urobiť, aby sme vám pomohli"
     invitation_not_found: 'Nedarí sa nám nájsť pozvánku s touto adresou. Skúste si vyžiadať novú pozvánku od jej odosielateľa.'
     invitation_cancelled: 'Tato pozvánka bola zrušená. Prosím kontaktujte odesieľateľa tejto pozvánky pokiaľ si myslíte, že došlo ku chybe.'
     invitation_already_used: 'Tato pozvánka už bola použitá. Prosím prihláste sa, aby ste mohli pokračovať do svojej skupiny.'

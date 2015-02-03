@@ -365,7 +365,7 @@ an:
   confirm_leave_hidden_group: "Seguro que quiers abandonar %{which_group}? Tamién serás borrau de totz os suyos subgrupos."
   confirm_leave_group: "Yes seguro que deseyas abandonar o grupo %{which_group}?"
   deactivate_group: "Desactivar grupo"
-  confirm_deactivate_group: "Aspera! Yes seguro que deseyas desactivar %{which_group}? Ya no podrás veyer o grupo. Manimenos, si cambeyas d''opinión puetz pedir-nos que lo reactivemos por tu ninviando-nos un correu electronico a contact@loomio.org."
+  confirm_deactivate_group: "Aspera! Yes seguro que deseyas desactivar %{which_group}? Ya no podrás veyer o grupo. Manimenos, si cambeyas d''opinión puetz pedir-nos que lo reactivemos por tu ninviando-nos un correu electronico a contact@earthcells.net."
   invited_users: "Miembros convidaus"
   members: "Miembros"
   confirm_remove_user: "Yes seguro que deseyas sacar d'o grupo a %{which_user}?"
@@ -429,7 +429,7 @@ an:
       body_html: |
         T'hemos ninviau un correu electronico con una invitación a prencipiar o tuyo grupo.
 
-        Si no veyes cosa en a tuya servilla de dentrada en bells menutos, escribe a <a href='mailto:contact@loomio.org'>contact@loomio.org</a>.
+        Si no veyes cosa en a tuya servilla de dentrada en bells menutos, escribe a <a href='mailto:contact@earthcells.net'>contact@earthcells.net</a>.
   thread_item:
     user_agreed_on_proposal_html: "<strong>%{name}</strong> ye d'alcuerdo con a propuesta."
     user_abstained_on_proposal_html: "<strong>%{name}</strong> s'ha absteniu en a propuesta."
@@ -604,12 +604,12 @@ an:
       <p>As personas querrán saber por qué han estau convidadas, qué s'aspera d'ellas,
       y por qué mereixe o suyo tiempo aprender a usar una nueva ferramienta.</p>
     join_the_community: "Unir a la comunidat"
-    join_the_community_description_html: "Totz son bienvenius en \"Loomio Community\", an charramos de cómo aprofitar de tot a ferramienta y de cómo amillorar-la.<br /><br /><a href='https://www.loomio.org/groups/3'>Preta aquí ta ir a o grupo \"Loomio Community\" group</a>, an puetz solicitar estar-ne miembro."
+    join_the_community_description_html: "Totz son bienvenius en \"Loomio Community\", an charramos de cómo aprofitar de tot a ferramienta y de cómo amillorar-la.<br /><br /><a href='https://www.earthcells.net/groups/3'>Preta aquí ta ir a o grupo \"Loomio Community\" group</a>, an puetz solicitar estar-ne miembro."
     images_and_text_formatting: "Imagenes y formato de texto"
     images_and_text_formatting_html: |
       <p>Loomio fa servir «marcadors» ta incluir imachens y formato de texto.
       Puetz activar marcadors con o chicot icono griso que i hai debaixo d'o quadro de comentarios.</p>
-      <p><a href='https://www.loomio.org/discussions/1124'>Preta aquí</a>
+      <p><a href='https://www.earthcells.net/discussions/1124'>Preta aquí</a>
       ta información sobre cómo usar marcadors.</p>
     keep_up_to_date: "Mantiene-te informau"
     keep_up_to_date_html: |
@@ -672,7 +672,7 @@ an:
 
       Gracias por fer-lo posible!
     thank_you_title: Gracias por contribuir con Loomio!
-    thank_you_body: "A tuya contribución nos aduya a ofrir decisions colaborativas y facils en o mundo. \n\nRecibirás un correu electronico en breu con un recibimiento por a tuya contribución. \n\nTotz son bienvenius a unir-se a la Comunidat Loomio, an se charra de cómo aprofitar a o maximo d''a ferramienta y cómo se puede amillorar. \n\n<a href='https://www.loomio.org/groups/3'> Leva-me a o grupo comunitario Loomio »</a> \n"
+    thank_you_body: "A tuya contribución nos aduya a ofrir decisions colaborativas y facils en o mundo. \n\nRecibirás un correu electronico en breu con un recibimiento por a tuya contribución. \n\nTotz son bienvenius a unir-se a la Comunidat Loomio, an se charra de cómo aprofitar a o maximo d''a ferramienta y cómo se puede amillorar. \n\n<a href='https://www.earthcells.net/groups/3'> Leva-me a o grupo comunitario Loomio »</a> \n"
     making_a_donation: Fer una donación
     making_a_donation_description: "Loomio ye una interpresa social cooperativa que treballa ta facilitar a totz o participar en decisions que les afectan.\n\nTu contribución implica que podamos mantener Loomio independient, libre d'anuncios, y disposable librement ta grupos que fan grans cosetas en as suyas comunidatz. \n\nMersi por fer-lo posible!\n"
   resend_confirmation: "Tornar a ninviar as instruccions de confirmación"
@@ -717,7 +717,7 @@ an:
     alternate: "Como alternativa, comparte iste vinclo y qualsiquiera podrá solicitar unir-se:"
     by_email: "Convidar por correu electronico "
     no_invitations_left: "Ya no tiens mas invitacions"
-    no_invitations_left_get_more: "Por favor, ninvia-nos un correu a contact@loomio.org y veyeremos cómo podemos aduyar-te"
+    no_invitations_left_get_more: "Por favor, ninvia-nos un correu a contact@earthcells.net y veyeremos cómo podemos aduyar-te"
     invitation_not_found: 'No s''ha puesto trobar garra invitación. Por favor, pide una nueva invitación.'
     invitation_cancelled: 'Ista invitación s''ha cancelau. Contacta a o remitent si creyes que i hai habiu bella error.'
     invitation_already_used: 'Ista invitación ya s''ha usau. Encieta sesión ta dentrar a o tuyo grupo.'

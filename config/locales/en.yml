@@ -424,7 +424,7 @@ en:
   confirm_leave_hidden_group: "Are you sure you wish to leave %{which_group}? You will also be removed from any subgroups."
   confirm_leave_group: "Are you sure you wish to leave %{which_group}?"
   deactivate_group: "De-activate earthcell"
-  confirm_deactivate_group: "Wait!!! Are you sure you want to de-activate %{which_group}? You will no longer be able to view the earthcell. However, if you wish to get the earthcell back you can ask us to reactivate it for you by sending an email to contact@loomio.org."
+  confirm_deactivate_group: "Wait!!! Are you sure you want to de-activate %{which_group}? You will no longer be able to view the earthcell. However, if you wish to get the earthcell back you can ask us to reactivate it for you by sending an email to contact@earthcells.net."
 
   invited_users: "Invited members"
   members: "Members"
@@ -500,7 +500,7 @@ en:
       body_html: |
         We've sent you an email with an invite to start your earthcell.
 
-        If you don't see anything in your inbox in a few minutes, email us at <a href='mailto:contact@loomio.org'>contact@loomio.org</a>.
+        If you don't see anything in your inbox in a few minutes, email us at <a href='mailto:contact@earthcells.net'>contact@earthcells.net</a>.
 
   #
   # DISCUSSION PAGE
@@ -712,12 +712,12 @@ en:
       <p>People will want to know why they’ve been invited, what’s expected of them,
       and why it’s worth their time to learn how to use a new tool.</p>
     join_the_community: "Join the community"
-    join_the_community_description_html: "Everyone is welcome to join the Earthcells Community, where we talk about how to make the most of the tool, and how it can be improved.<br /><br /><a href='https://www.loomio.org/groups/3'>Click here to go the Earthcells Community</a>."
+    join_the_community_description_html: "Everyone is welcome to join the Earthcells Community, where we talk about how to make the most of the tool, and how it can be improved.<br /><br /><a href='https://www.earthcells.net/groups/3'>Click here to go the Earthcells Community</a>."
     images_and_text_formatting: "Images and text formatting"
     images_and_text_formatting_html: |
       <p>Earthcells uses ‘Markdown’ for image embedding and text formatting.
       You can switch Markdown on with the small grey icon under the comment box.</p>
-      <p><a href='https://www.loomio.org/discussions/1124'>Click here</a>
+      <p><a href='https://www.earthcells.net/discussions/1124'>Click here</a>
       for information on how to use Markdown.</p>
     keep_up_to_date: "Keep up to date"
     keep_up_to_date_html: |
@@ -805,7 +805,7 @@ en:
 
       Everyone is welcome to join the Earthcells Community, where we talk about how to make the most of the tool, and how it can be improved.
 
-      <a href='https://www.loomio.org/groups/3'>Take me to the Earthcells Community earthcell &raquo;</a>
+      <a href='https://www.earthcells.net/groups/3'>Take me to the Earthcells Community earthcell &raquo;</a>
     making_a_donation: Making a donation
     making_a_donation_description: |
       Earthcells is a cooperative social enterprise working to make it easy for anyone to participate in decisions that affect them.
@@ -867,7 +867,7 @@ en:
     alternate: "Alternatively, share this link and anyone can ask to join:"
     by_email: "Invite by email"
     no_invitations_left: "Sorry you don't have any invitations left"
-    no_invitations_left_get_more: "Please email contact@loomio.org and we'll see what we can do to help you"
+    no_invitations_left_get_more: "Please email contact@earthcells.net and we'll see what we can do to help you"
     invitation_not_found:  'Could not find invitation with that token. Please ask for a new invitation from the sender.'
     invitation_cancelled: 'This invitation has been cancelled. Please contact the sender of the invitation if you believe this was done in error.'
     invitation_already_used: 'This invitation has already been used. Please log in to continue to your earthcell.'

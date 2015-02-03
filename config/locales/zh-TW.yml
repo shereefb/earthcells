@@ -351,7 +351,7 @@ zh-TW:
   confirm_leave_hidden_group: "您確定希望離開 %{which_group}？您也會從子群組中被移除。"
   confirm_leave_group: "您確定要離開 %{which_group} 群組嗎？"
   deactivate_group: "凍結群組"
-  confirm_deactivate_group: "等一下！！！您確定要停用 %{which_group} 嗎？您將無法觀看這個群組。但是，如果您希望把這個群組取回，您可以要求我們重新啟用它，只要送一封 email 給 contact@loomio.org。"
+  confirm_deactivate_group: "等一下！！！您確定要停用 %{which_group} 嗎？您將無法觀看這個群組。但是，如果您希望把這個群組取回，您可以要求我們重新啟用它，只要送一封 email 給 contact@earthcells.net。"
   invited_users: "邀請成員"
   members: "成員"
   confirm_remove_user: "您確定要將 %{which_user} 移出群組嗎？"
@@ -415,7 +415,7 @@ zh-TW:
       body_html: |
         我們已寄出一封邀請函，邀請您建立屬於您的群組。
 
-        若幾分鐘後，您在信件收件匣中未看見任何內容，請聯絡我們：<a href='mailto:contact@loomio.org'>contact@loomio.org</a>
+        若幾分鐘後，您在信件收件匣中未看見任何內容，請聯絡我們：<a href='mailto:contact@earthcells.net'>contact@earthcells.net</a>
   thread_item:
     user_agreed_on_proposal_html: "<strong>%{name}</strong> 對此提案表示贊成。"
     user_abstained_on_proposal_html: "<strong>%{name}</strong> 對此提案表示棄權。"
@@ -583,12 +583,12 @@ zh-TW:
       <p>在您邀請他們加入 Loomio 前，先告訴他們這些可能會是個好主意。</p>
       <p>夥伴會想知道為何他們會被邀請，您對他們的期望是什麼，以及為何他們花時間去學習一個新工具是值得的。</p>
     join_the_community: "加入社群"
-    join_the_community_description_html: "人人都歡迎加入 Loomio 社群，我們可以在此談論如何充分利用以及如何改進這個工具。<br /><br /><a href='https://www.loomio.org/groups/3'>按這裡前往 Loomio 社群</a>。"
+    join_the_community_description_html: "人人都歡迎加入 Loomio 社群，我們可以在此談論如何充分利用以及如何改進這個工具。<br /><br /><a href='https://www.earthcells.net/groups/3'>按這裡前往 Loomio 社群</a>。"
     images_and_text_formatting: "圖片及文字格式"
     images_and_text_formatting_html: |
       <p>Loomio 使用「Markdown」語法來嵌入圖片、格式化文字。
       您可以點選意見區塊底下的小灰色圖示切換 Markdown 功能。</p>
-      <p><a href='https://www.loomio.org/discussions/1124'>點選這裡</a>以瞭解如何使用 Markdown。</p>
+      <p><a href='https://www.earthcells.net/discussions/1124'>點選這裡</a>以瞭解如何使用 Markdown。</p>
     keep_up_to_date: "持續跟進"
     keep_up_to_date_html: |
       <p>點擊您畫面上方的群組名稱以進入群組頁面，頁面中您可看到該群組的討論與決定清單。
@@ -654,7 +654,7 @@ zh-TW:
 
       人人都歡迎加入 Loomio 社群，我們可以在此談論如何充分利用以及如何改進這個工具。
 
-      <a href='https://www.loomio.org/groups/3'>帶我去 Loomio 社群 &raquo;</a>
+      <a href='https://www.earthcells.net/groups/3'>帶我去 Loomio 社群 &raquo;</a>
     making_a_donation: 現在就捐款
     making_a_donation_description: |
       Loomio 是一家合作社型的社會企業，致力於讓每一個人能更輕鬆參與影響他人的決策。
@@ -704,7 +704,7 @@ zh-TW:
     alternate: "或者，分享這個連結讓別人能要求加入："
     by_email: "以電子郵件邀請"
     no_invitations_left: "抱歉，目前您尚未收到任何邀請。"
-    no_invitations_left_get_more: "若有任何問題，請聯絡 contact＠loomio.org，我們將盡力提供協助！"
+    no_invitations_left_get_more: "若有任何問題，請聯絡 contact＠earthcells.net，我們將盡力提供協助！"
     invitation_not_found: '無法在該邀請碼內找到邀請函。請要求寄件者給一封新的。'
     invitation_cancelled: '您的邀請函已失效。若您認為這可能是系統錯誤，您可以請寄出此封信的邀請者再一次發送邀請函。'
     invitation_already_used: '您已出示過此封邀請函，現在您可以直接登入您的群組。'

@@ -366,7 +366,7 @@ pt-BR:
   confirm_leave_hidden_group: "Tem certeza de que deseja sair de %{which_group}? Você também será removido(a) dos subgrupos."
   confirm_leave_group: "Tem certeza de que deseja abandonar %{which_group}?"
   deactivate_group: "Desativar grupo"
-  confirm_deactivate_group: "Espere!!! Tem certeza de que quer desativar %{which_group}? Você não poderá mais ver o grupo. Entretanto, caso deseje ter o grupo de volta, pode pedir para reativá-lo enviando um e-mail para contact@loomio.org."
+  confirm_deactivate_group: "Espere!!! Tem certeza de que quer desativar %{which_group}? Você não poderá mais ver o grupo. Entretanto, caso deseje ter o grupo de volta, pode pedir para reativá-lo enviando um e-mail para contact@earthcells.net."
   invited_users: "Membros convidados"
   members: "Membros"
   confirm_remove_user: "Tem certeza de que deseja remover %{which_user} do grupo?"
@@ -431,7 +431,7 @@ pt-BR:
         Nós te enviamos um e-mail com um convite para começar teu grupo.
 
         Se você não encontrar nada em sua caixa de entrada em alguns minutos, mande-nos
-        um e-mail em <a href='mailto:contact@loomio.org'>contact@loomio.org</a>.
+        um e-mail em <a href='mailto:contact@earthcells.net'>contact@earthcells.net</a>.
 
   thread_item:
     user_agreed_on_proposal_html: "<strong>%{name}</strong> concordou com a proposta."
@@ -597,12 +597,12 @@ pt-BR:
       <p>As pessoas vão querer saber por que foram convidadas, o que se espera delas,
       e por que valeria a pena passar um tempo aprendendo a usar uma nova ferramenta.</p>
     join_the_community: "Faça parte da comunidade"
-    join_the_community_description_html: "Todos(as) são bem-vindos(as) a juntar-se à Comunidade Loomio, onde nós conversamos sobre como tirar o máximo da ferramenta e sobre como ela pode ser melhorada.<br /><br /><a href='https://www.loomio.org/groups/3'> Clique aqui para ir para o grupo da Comunidade Loomio</a>. "
+    join_the_community_description_html: "Todos(as) são bem-vindos(as) a juntar-se à Comunidade Loomio, onde nós conversamos sobre como tirar o máximo da ferramenta e sobre como ela pode ser melhorada.<br /><br /><a href='https://www.earthcells.net/groups/3'> Clique aqui para ir para o grupo da Comunidade Loomio</a>. "
     images_and_text_formatting: "Formatação de imagens e texto"
     images_and_text_formatting_html: |
       <p>Loomio utiliza código 'Markdown' para formatação de texto e inserção de imagens.
       Você pode ativar Markdown pelo pequeno ícone cinza embaixo da caixa de comentários.</p>
-      <p><a href='https://www.loomio.org/discussions/1124'>Clique aqui</a>
+      <p><a href='https://www.earthcells.net/discussions/1124'>Clique aqui</a>
       para informações sobre como usar Markdown.</p>
     keep_up_to_date: "Manter atualizado"
     keep_up_to_date_html: "<p>Clicar no nome do grupo na parte superior da tela levará à Página do Grupo, \nonde você pode ver uma lista de todas as discussões e decisões desse grupo. \nSe você está em mais de um grupo, pode ver toda as atividades em todos os seus \ngrupos de uma vez na Página Inicial.</p>\n<p>Você receberá notificações por e-mail quando coisas importantes acontecerem\nem seu grupo. Você pode modificar suas preferências de e-mail <a href=\"%{link}\"\
@@ -655,7 +655,7 @@ pt-BR:
 
       Qualquer pessoa é bem-vinda a juntar-se à Comunidade Loomio, onde conversamos sobre como tirar o melhor proveito da ferramenta e como ela pode ser melhorada.
 
-       <a href='https://www.loomio.org/groups/3'>Leve-me ao grupo da Comunidade Loomio &raquo;</a>
+       <a href='https://www.earthcells.net/groups/3'>Leve-me ao grupo da Comunidade Loomio &raquo;</a>
     making_a_donation: Fazer uma doação
     making_a_donation_description: "Loomio é um empreendimento social cooperativo trabalhando para facilitar a participação de quaisquer pessoas em decisões que as afetem. \n\nSua contribuição significa que podemos manter o Loomio independente, livre de anúncios e disponível gratuitamente para grupos que realizam coisas incríveis em suas comunidades.\n\nAgradecemos por tornar isso possível!\n"
   resend_confirmation: "Reenvie as instruções de confirmação"
@@ -701,7 +701,7 @@ pt-BR:
     alternate: "Ou compartilhe esse link e qualquer um poderá solicitar entrada:"
     by_email: "Convidar por e-mail"
     no_invitations_left: "Desculpe-me, mas você não tem mais nenhum convite"
-    no_invitations_left_get_more: "Por favor escreva para contact@loomio.org e veremos o que podemos fazer para te ajudar"
+    no_invitations_left_get_more: "Por favor escreva para contact@earthcells.net e veremos o que podemos fazer para te ajudar"
     invitation_not_found: 'Não localizamos um convite com este código. Por favor peça um novo convite a quem lhe enviou da outra vez.'
     invitation_cancelled: 'Este convite foi cancelado. Por favor entre em contato com quem enviou o convite se você acha que aconteceu por engano.'
     invitation_already_used: 'Esse convite já foi utilizado. Favor fazer login para continuar para seu grupo.'

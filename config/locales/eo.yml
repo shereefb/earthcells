@@ -360,7 +360,7 @@ eo:
   confirm_leave_hidden_group: "Ĉu vi certas ke vi volas forlasi %{which_group}? Vi ankaŭ estos forigata el eventualaj subgrupoj."
   confirm_leave_group: "Ĉu vi certas, ke vi volas elriri la grupon %{which_group}?"
   deactivate_group: "Malaktivigi grupon"
-  confirm_deactivate_group: "Atendu!!! Ĉu vi certas, ke vi volas malaktivigi la grupon %{which_group}? Post tio, vi ne plu povos vidi la grupon. Tamen, se vi volas rehavi la grupon, vi povas peti de ni ke ni reaktivigu ĝin por vi per sendado de retmesaĝo al contact@loomio.org."
+  confirm_deactivate_group: "Atendu!!! Ĉu vi certas, ke vi volas malaktivigi la grupon %{which_group}? Post tio, vi ne plu povos vidi la grupon. Tamen, se vi volas rehavi la grupon, vi povas peti de ni ke ni reaktivigu ĝin por vi per sendado de retmesaĝo al contact@earthcells.net."
   invited_users: "Invititiaj membroj"
   members: "Membroj"
   confirm_remove_user: "Ĉu vi certas, ke vi volas forigi %{which_user} el tiu ĉi grupo?"
@@ -424,7 +424,7 @@ eo:
       body_html: |
         Ni sendis retpoŝtaĵon kun invito por komenci vian grupon.
 
-        Se vi nenion vidas en via poŝtkesto en kelkaj minutoj, retpoŝtu nin je <a href='mailto:contact@loomio.org'>contact@loomio.org</a>.
+        Se vi nenion vidas en via poŝtkesto en kelkaj minutoj, retpoŝtu nin je <a href='mailto:contact@earthcells.net'>contact@earthcells.net</a>.
   discussion_items:
     new_discussion: "kreis la diskuton"
     new_motion: "kreis proponon"
@@ -594,12 +594,12 @@ eo:
       <p>Oni volas scii kial ili estis invititaj, kion oni atendas de ili, kaj kial indas ilia tempo por lerni
       kiel uzi la novan ilon.</p>
     join_the_community: "Aliĝi al la komunumo"
-    join_the_community_description_html: "Ĉiuj bonvenas aliĝi al la komunumo de Loomio, kie ni parolas pri kiel plej bonigi la ilon, kaj kiel ĝi povas esti plibonigata.<br /><br /><a href='https://www.loomio.org/groups/3'>Klaku ĉi tie por iri al la grupo de la Loomio-komunumo</a>."
+    join_the_community_description_html: "Ĉiuj bonvenas aliĝi al la komunumo de Loomio, kie ni parolas pri kiel plej bonigi la ilon, kaj kiel ĝi povas esti plibonigata.<br /><br /><a href='https://www.earthcells.net/groups/3'>Klaku ĉi tie por iri al la grupo de la Loomio-komunumo</a>."
     images_and_text_formatting: "Bildoj kaj teksta formatado"
     images_and_text_formatting_html: |
       <p>Loomio uzas 'Markdown' por bildenmetado kaj tekstformatado.
       Vi povas enŝalti Markdown per la malgranda griza emblemo sub la komentkesto.</p>
-      <p><a href='https://www.loomio.org/discussions/1124'>Klaku ĉi tie</a>
+      <p><a href='https://www.earthcells.net/discussions/1124'>Klaku ĉi tie</a>
       por informiĝi kiel uzi Markdown.</p>
     keep_up_to_date: "Resti ĝisdata"
     keep_up_to_date_html: |
@@ -672,7 +672,7 @@ eo:
 
       Ĉiuj estas bonvenaj aliĝi al la Loomio-komunumo, kie ni parolas pri kiel plej taŭge uzi la ilon, kaj kiel plibonigi.
 
-      <a href='https://www.loomio.org/groups/3'>Iri al la Loomio-komunumo &raquo;</a>
+      <a href='https://www.earthcells.net/groups/3'>Iri al la Loomio-komunumo &raquo;</a>
     making_a_donation: Fari mondonon
     making_a_donation_description: |
       Loomio estas kunlabora socia entrepreno laboranta por faciligi al ĉiuj partopreni en decidoj rilataj al ili.
@@ -722,7 +722,7 @@ eo:
     alternate: "Alternative, vi povas kunhavigi ĉi tiun ligilon kaj ĉiuj povas peti aliĝon:"
     by_email: "Inviti per retpoŝto"
     no_invitations_left: "Pardonu, sed ne restas plu invitoj"
-    no_invitations_left_get_more: "Bonvolu retpoŝti al contact@loomio.org kaj ni vidos kion ni povos fari por helpi vin"
+    no_invitations_left_get_more: "Bonvolu retpoŝti al contact@earthcells.net kaj ni vidos kion ni povos fari por helpi vin"
     invitation_not_found: 'Ne eblis trovi la inviton kun tiu identaĵo. Bonvolu peti novan inviton de la sendinto.'
     invitation_cancelled: 'Ĉi tiu invito nuliĝis. Bonvolu kontakti la sendinton de la invito se vi pensas ke tio estis eraro.'
     invitation_already_used: 'Ĉi tiu invito jam uziĝis. Bonvolu ensaluti por pluiri al via grupo.'

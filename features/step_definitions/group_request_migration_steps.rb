@@ -1,5 +1,5 @@
 Given(/^there is an approved GroupRequest$/) do
-  @ben = FactoryGirl.create(:user, email: 'ben@loomio.org')
+  @ben = FactoryGirl.create(:user, email: 'ben@earthcells.net')
   @group = FactoryGirl.create(:group)
   @group_request = FactoryGirl.create(:group_request,
                                       name: "Friends of friends",
@@ -25,7 +25,7 @@ Then(/^there should be an invitation to start that group$/) do
 end
 
 When(/^I visit a GroupRequest\#start new group$/) do
-  @ben = FactoryGirl.create(:user, email: 'ben@loomio.org')
+  @ben = FactoryGirl.create(:user, email: 'ben@earthcells.net')
   @group = FactoryGirl.create(:group)
   @group_request = FactoryGirl.create(:group_request,
                                       name: "Friends of friends",

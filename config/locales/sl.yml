@@ -91,7 +91,7 @@ sl:
   setup_step_3: "Povabi osebe v svojo skupino"
   invite_people: "Povabite ljudi"
   edit_memberships: 'Urejanje članstev'
-  confirm_deactivate_group: "Pozor!!! Ali ste prepričani da želite deaktivirati %{which_group}? Skupine si ne boste mogli več ogledati. Vendar, če želite obnoviti skupino nas lahko prosite za vnovično aktivacijo tako, da nam pošljete e-sporočilo na contact@loomio.org."
+  confirm_deactivate_group: "Pozor!!! Ali ste prepričani da želite deaktivirati %{which_group}? Skupine si ne boste mogli več ogledati. Vendar, če želite obnoviti skupino nas lahko prosite za vnovično aktivacijo tako, da nam pošljete e-sporočilo na contact@earthcells.net."
   members: "Člani"
   want_to_invite_html: "Ali želite <a href='%{link}'>povabiti ljudi</a> v to skupino?"
   membership_requests: "Zahteve za članstvo"
@@ -107,7 +107,7 @@ sl:
       body_html: |
         Poslali smo vam e-sporočilo z vabilom k ustvarjanju svoje skupine.
 
-        Če ne vidite ničesar v vašem poštnem predalu v nekaj minutah, nam pišite na <a href='mailto:contact@loomio.org'>contact@loomio.org</a>.
+        Če ne vidite ničesar v vašem poštnem predalu v nekaj minutah, nam pišite na <a href='mailto:contact@earthcells.net'>contact@earthcells.net</a>.
   previous_decisions: "Pretekle odločitve"
   see_previous_decisions: "Oglej si pretekle odločitve"
   help:

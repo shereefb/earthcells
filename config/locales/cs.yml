@@ -321,7 +321,7 @@ cs:
   confirm_leave_hidden_group: "Opravdu chcete opustit %{which_group}? Budete také vyloučen(a) ze všech podskupin."
   confirm_leave_group: "Opravdu chcete opustit %{which_group}?"
   deactivate_group: "Deaktivovat skupinu"
-  confirm_deactivate_group: "Počkejte!!! Opravdu chcete deaktivovat %{which_group}? Nebudete nadále moci zobrazovat tuto skupinu. Nicméně pokud chcete skupinu získat zpět, můžete nás požádat, abychom ji reaktivovali emailem na contact@loomio.org."
+  confirm_deactivate_group: "Počkejte!!! Opravdu chcete deaktivovat %{which_group}? Nebudete nadále moci zobrazovat tuto skupinu. Nicméně pokud chcete skupinu získat zpět, můžete nás požádat, abychom ji reaktivovali emailem na contact@earthcells.net."
   invited_users: "Pozvaní členové"
   members: "Členové"
   confirm_remove_user: "Opravdu chcete odstranit %{which_user} ze skupiny?"
@@ -375,7 +375,7 @@ cs:
       body_html: |
         Poslali jsme vám email s pozvánkou k vytvoření vaší skupiny.
 
-        Pokud nic neuvidíte ve své přijaté poště během několika minut, napište nám na <a href='mailto:contact@loomio.org'>contact@loomio.org</a>.
+        Pokud nic neuvidíte ve své přijaté poště během několika minut, napište nám na <a href='mailto:contact@earthcells.net'>contact@earthcells.net</a>.
   discussion_items:
     new_discussion: "vytvořil(a) diskuzi"
     new_motion: "vytvořil(a) návrh"
@@ -559,7 +559,7 @@ cs:
     alternate: "Případně sdílejte tento odkaz a každý vás může zažádat o členství:"
     by_email: "Pozvat emailem"
     no_invitations_left: "Omlouváme se, nezbývají vám žádné pozvánky"
-    no_invitations_left_get_more: "Prosím emailujte contact@loomio.org a uvidíme, co můžeme udělat, abychom vám pomohli"
+    no_invitations_left_get_more: "Prosím emailujte contact@earthcells.net a uvidíme, co můžeme udělat, abychom vám pomohli"
     invitation_cancelled: 'Tato pozvánka byla zrušena. Prosím kontaktujte odesílatele této pozvánky pokud myslíte, že došlo k chybě.'
     invitation_already_used: 'Tato pozvánka už byla použita. Prosím přihlaste se, abyste pokračoval(a) ke své skupině.'
     recipients: "Zadejte emailové adresy, oddělené čárkami:"

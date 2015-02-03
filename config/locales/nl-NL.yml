@@ -360,7 +360,7 @@ nl-NL:
   confirm_leave_hidden_group: "Weet je zeker dat je %{which_group} wilt verlaten? Je wordt ook verwijderd uit alle subgroepen."
   confirm_leave_group: "Weet je zeker dat je %{which_group} wil verlaten?"
   deactivate_group: "Deactiveer groep"
-  confirm_deactivate_group: "Wacht!!! Weet je zeker dat je %{which_group} wil deactiveren? Je kunt de groep dan niet meer bekijken. Echter, als je de groep terug wilt kun je ons vragen deze voor je te reactiveren door een e-mail te sturen naar contact@loomio.org."
+  confirm_deactivate_group: "Wacht!!! Weet je zeker dat je %{which_group} wil deactiveren? Je kunt de groep dan niet meer bekijken. Echter, als je de groep terug wilt kun je ons vragen deze voor je te reactiveren door een e-mail te sturen naar contact@earthcells.net."
   invited_users: "Uitgenodigde leden"
   members: "Leden"
   confirm_remove_user: "Weet je zeker dat je %{which_user} uit de groep wil verwijderen?"
@@ -424,7 +424,7 @@ nl-NL:
       body_html: |
         We hebben je een e-mail gestuurd met een uitnodiging om jouw groep te beginnen.
 
-        Als je niet binnen een paar minuten iets in je inbox ziet, e-mail ons dan op<a href='mailto:contact@loomio.org'>contact@loomio.org</a>.
+        Als je niet binnen een paar minuten iets in je inbox ziet, e-mail ons dan op<a href='mailto:contact@earthcells.net'>contact@earthcells.net</a>.
   discussion_items:
     new_discussion: "begon de discussie"
     new_motion: "maakte een voorstel"
@@ -579,12 +579,12 @@ nl-NL:
       <p>Mogelijk is het een goed idee om eerst met je groepsleden te praten voor je ze uitnodigt op Loomio.</p>
       <p>Mensen zullen willen weten waarom ze uitgenodigd zijn, wat er van hen verwacht wordt en waarom het 't waard is om met een nieuw instrument te leren omgaan.</p>
     join_the_community: "Word lid van de gemeenschap"
-    join_the_community_description_html: "iedereen is welkom in de Loomio Community, waar we praten over hoe we het meeste uit dit instrument kunnen halen en hoe we het kunnen verbeteren.<br /><br /><a href='https://www.loomio.org/groups/3'>Klik hier om naar de Loomio Community groep te gaan</a>."
+    join_the_community_description_html: "iedereen is welkom in de Loomio Community, waar we praten over hoe we het meeste uit dit instrument kunnen halen en hoe we het kunnen verbeteren.<br /><br /><a href='https://www.earthcells.net/groups/3'>Klik hier om naar de Loomio Community groep te gaan</a>."
     images_and_text_formatting: "Afbeeldingen en tekstopmaak"
     images_and_text_formatting_html: |
       <p>Loomio gebruikt 'Markdown' voor tekstopmaak en om afbeeldingen in te voegen.
       Je kan Markdown aanzetten met het kleine grijze icoontje onderaan het reactieveld.</p>
-      <p><a href='https://www.loomio.org/discussions/1124'>Klik hier</a>
+      <p><a href='https://www.earthcells.net/discussions/1124'>Klik hier</a>
       voor informatie over hoe je Markdown kan gebruiken.</p>
     keep_up_to_date: "Blijf op de hoogte"
     keep_up_to_date_html: |
@@ -653,7 +653,7 @@ nl-NL:
 
       Iedereen is welkom om zich bij de Loomio Community te voegen, waar we praten over hoe we het beste maken van dit instrument en hoe het verbeterd kan worden.
 
-      <a href='https://www.loomio.org/groups/3'>Breng me naar de Loomio Community groep&raquo;</a>
+      <a href='https://www.earthcells.net/groups/3'>Breng me naar de Loomio Community groep&raquo;</a>
     making_a_donation: Een donatie doen
     making_a_donation_description: |
       Loomio is een coöperatieve sociale onderneming die het makkelijk maakt voor iedereen om te participeren in beslissingen die hen aangaan.
@@ -703,7 +703,7 @@ nl-NL:
     alternate: "Of deel deze link waarmee iedereen een aanvraag in kan dienen om lid te worden:"
     by_email: "Uitnodiging via e-mail"
     no_invitations_left: "Sorry, je hebt geen uitnodigingen meer over"
-    no_invitations_left_get_more: "Stuur een e-mail naar contact@loomio.org waarna we zullen kijken hoe we je kunnen helpen"
+    no_invitations_left_get_more: "Stuur een e-mail naar contact@earthcells.net waarna we zullen kijken hoe we je kunnen helpen"
     invitation_not_found: 'Kon geen uitnodiging vinden met die token. Vraag om een nieuwe uitnodiging van de verzender.'
     invitation_cancelled: 'Deze uitnodiging is geannuleerd. Neem contact op met de verzender van de uitnodiging als je denkt dat dit een vergissing is.'
     invitation_already_used: 'Deze uitnodiging is al gebruikt. Log in om naar je groep te gaan.'

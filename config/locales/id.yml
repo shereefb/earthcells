@@ -193,7 +193,7 @@ id:
   confirm_leave_hidden_group: "Apakah Anda yakin untuk keluar dari %{which_group}? Anda juga akan dikeluarkan dari setiap kelompok kecil di dalam kelompok ini."
   confirm_leave_group: "Apakah Anda ingin keluar dari %{which_group}?"
   deactivate_group: "Non-aktifkan kelompok"
-  confirm_deactivate_group: "Tunggu!!! Apakah Anda yakin ingin menonaktifkan %{which_group}? Anda tidak dapat memuat kelompok ini lagi. Namun, Anda dapat menghubungi kami apabila Anda ingin kelompok ini diaktifkan kembali dengan mengirimkan surel kepada contact@loomio.org."
+  confirm_deactivate_group: "Tunggu!!! Apakah Anda yakin ingin menonaktifkan %{which_group}? Anda tidak dapat memuat kelompok ini lagi. Namun, Anda dapat menghubungi kami apabila Anda ingin kelompok ini diaktifkan kembali dengan mengirimkan surel kepada contact@earthcells.net."
   invited_users: "Anggota yang diundang"
   members: "Anggota"
   confirm_remove_user: "Apakah Anda ingin menghapus %{which_user} dari kelompok ini?"
@@ -240,7 +240,7 @@ id:
       body_html: |
         Kami telah mengirimkan surel dengan undangan untuk memulai kelompok Anda.
 
-        Apabila Anda tidak mendapatkannya dalam beberapa menit, hubungi kami melalui <a href='mailto:contact@loomio.org'>contact@loomio.org</a>.
+        Apabila Anda tidak mendapatkannya dalam beberapa menit, hubungi kami melalui <a href='mailto:contact@earthcells.net'>contact@earthcells.net</a>.
   discussion_items:
     new_discussion: "membuat diskusi ini"
     new_motion: "membuat usulan baru"
@@ -358,12 +358,12 @@ id:
       <p>Anda dapat berdiskusi dengan kelompok terlebih dulu sebelum meminta mereka bergabung ke dalam Loomio.</p>
       <p>Mereka ingin tahu mengapa mereka diundang, apa yang Anda harapkan dari mereka, dan mengapa alat ini penting untuk mereka.</p>
     join_the_community: "Gabung ke dalam komunitas"
-    join_the_community_description_html: "Semua orang dapat bergabung ke dalam Komunitas Loomio, di mana kita membicarakan penggunaan alat secara maksimal, dan bagaimana alat ini dapat dibuat lebih baik lagi.<br /><br /><a href='https://www.loomio.org/groups/3'>Klik di sini untuk masuk kelompok Komunitas Loomio</a>."
+    join_the_community_description_html: "Semua orang dapat bergabung ke dalam Komunitas Loomio, di mana kita membicarakan penggunaan alat secara maksimal, dan bagaimana alat ini dapat dibuat lebih baik lagi.<br /><br /><a href='https://www.earthcells.net/groups/3'>Klik di sini untuk masuk kelompok Komunitas Loomio</a>."
     images_and_text_formatting: "Format gambar dan teks"
     images_and_text_formatting_html: |
       <p>Loomio menggunakan ‘Penanda’ untuk memunculkan gambar dan format teks.
       Anda dapat mengaktifkan Penanda melalui tombol kecil abu-abu di bawah kotak komentar.</p>
-      <p><a href='https://www.loomio.org/discussions/1124'>Klik di sini</a>
+      <p><a href='https://www.earthcells.net/discussions/1124'>Klik di sini</a>
       untuk informasi penggunaan Penanda.</p>
     keep_up_to_date: "Pantau perubahan"
     keep_up_to_date_html: "<p>Klik nama kelompok Anda di atas untuk menuju ke Laman Kelompok, dan Anda dapat melihat daftar seluruh diskusi dan \nkeputusan. Apabila Anda berada di dalam lebih dari satu kelompok, Anda dapat melihat seluruh aktivitas semua kelompok pada Laman Beranda.</p>\n<p>Anda akan mendapatkan surel notifikasi saat ada hal penting yang terjadi di dalam kelompok.\nAnda dapat mengubah preferensi\
@@ -434,7 +434,7 @@ id:
 
       Semua orang dapat bergabung ke dalam Komunitas Loomio, di mana kita membicarakan penggunaan alat secara maksimal, dan bagaimana alat ini dapat dibuat lebih baik lagi.
 
-      <a href='https://www.loomio.org/groups/3'>Bawa saya ke kelompok Komunitas Loomio</a>
+      <a href='https://www.earthcells.net/groups/3'>Bawa saya ke kelompok Komunitas Loomio</a>
     making_a_donation: Berikan donasi
     making_a_donation_description: |
       Loomio adalah usaha kerja sama sosial untuk mempermudah setiap orang berpartisipasi dalam keputusan yang mempengaruhi mereka.
@@ -465,7 +465,7 @@ id:
     alternate: "Selain itu, sebarkan tautan ini dan setiap orang dapat mengirim permintaan bergabung:"
     by_email: "Undang melalui surel"
     no_invitations_left: "Anda tidak memiliki undangan yang tersisa"
-    no_invitations_left_get_more: "Kirim surel ke contact@loomio.org dan kami akan coba membantu Anda"
+    no_invitations_left_get_more: "Kirim surel ke contact@earthcells.net dan kami akan coba membantu Anda"
     invitation_not_found: 'Undangan dengan token tersebut tidak ditemukan. Hubungi pengirim untuk memberikan undangan baru.'
     invitation_cancelled: 'Undangan ini telah dibatalkan. Hubungi pengirim undangan apabila Anda merasa terdapat kesalahan.'
     invitation_already_used: 'Undangan ini telah digunakan. Masuk log untuk lanjut ke kelompok Anda.'

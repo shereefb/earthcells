@@ -316,7 +316,7 @@ ro:
   confirm_leave_hidden_group: "Esti sigur ca vrei sa parasesti %{which_group}? Vei fi inlaturat si din toate subgrupurile."
   confirm_leave_group: "Esti sigur ca vrei sa parasesti %{which_group}?"
   deactivate_group: "Dezactiveaza grup"
-  confirm_deactivate_group: "Asteapta!! Esti sigur ca vrei sa dezactivezi %{which_group}? Nu vei mai putea sa vezi acest grup. Daca vei vrea sa re-creezi grupul trimite-ne un mail pe adresa contact@loomio.org."
+  confirm_deactivate_group: "Asteapta!! Esti sigur ca vrei sa dezactivezi %{which_group}? Nu vei mai putea sa vezi acest grup. Daca vei vrea sa re-creezi grupul trimite-ne un mail pe adresa contact@earthcells.net."
   invited_users: "Membri invitati"
   members: "Membri"
   confirm_remove_user: "Esti sigur ca vrei sa elimini pe %{which_user} din grup?"
@@ -371,7 +371,7 @@ ro:
       body_html: |-
         Ti-am trimis un email cu o invitiatie pentru creearea grupului tau,\n
         \n
-        Daca nu ai primit nici un mail in casuta de inbox, trimite-ne un email la <a href='mailto:contact@loomio.org'>contact@loomio.org</a>\n
+        Daca nu ai primit nici un mail in casuta de inbox, trimite-ne un email la <a href='mailto:contact@earthcells.net'>contact@earthcells.net</a>\n
   discussion_items:
     new_discussion: "discutia a fost creata"
     new_motion: "propunerea a fost creata"
@@ -506,12 +506,12 @@ ro:
     invitation_html: "<h2>Cum sa scrii o invitatie excelenta</h2>\n<p>Prima intrebare pe care fiecare nou membru o va avea este 'pentru ce este creat acest grup?'</p>\n<p>Gandeste-te la cea mai simpla descriere a grupului: Ce vrei sa obtineti impreuna?\n Ce tipuri de decizii veti lua? Cine va fi implicat?</p><p>Poate fi o idee buna sa vorbesti cu\
       \ grupul tau \ninainte de ai invita pe Loomio</p>\n<p> Oamenii vor voi sa stie de ce au fost invitati si ce se asteapta de la ei si de ce merita sa-si investeasca\ntimpul in a invata cum sa foloseasca un nou instrument.</p>\n"
     join_the_community: "Alatura-te comunitatii"
-    join_the_community_description_html: "Toata lumea este binevenita in Comunitatea loomio, unde discutam cum sa obtinem cat mai mult din folosirea acestui instrument, si cum poate fi imbunatatit.<br /><br /><a href='https://www.loomio.org/groups/3'>Apasa aici ca sa intri in grupul Comunitatii Loomio</a>."
+    join_the_community_description_html: "Toata lumea este binevenita in Comunitatea loomio, unde discutam cum sa obtinem cat mai mult din folosirea acestui instrument, si cum poate fi imbunatatit.<br /><br /><a href='https://www.earthcells.net/groups/3'>Apasa aici ca sa intri in grupul Comunitatii Loomio</a>."
     images_and_text_formatting: "Formatarea imaginilor si a textului"
     images_and_text_formatting_html: |
       <p>Loomio foloseste ‘Markdown' pentru a adauga imagini si formatarea textului.
       Poti porni Markdown prin icoana mica gri de sub casuta de comentarii</p?
-      <p><a href='https://www.loomio.org/discussions/1124'>Apasa aici</a> pentru informatii
+      <p><a href='https://www.earthcells.net/discussions/1124'>Apasa aici</a> pentru informatii
       despre folosirea Markdown</p>
     keep_up_to_date: "Mentine actualizat"
     keep_up_to_date_html: "<p>Apasand pe numele grupului in partea de sus a paginii vei ajunge in Pagina Grupului,\nunde poti vizualiza o lista a tututor discutiilor si deciziilor din acel grup.. Daca esti membru in \nmai mult de un grup, poti sa vezi toate activitatile din grupurile tale direct din Pagina de Start.</p>\n<p>Vei primi notificari pe\
@@ -574,7 +574,7 @@ ro:
 
       Toata lumea este binevenita sa se alature comunitatii Loomio, unde discutam despre cum sa utilizam la maxim acest mediu, si cum poate fi imbunatatit.
 
-      <a href='https://www.loomio.org/groups/3'>Du-ma la grupul comunitatii Loomio &raquo;</a>
+      <a href='https://www.earthcells.net/groups/3'>Du-ma la grupul comunitatii Loomio &raquo;</a>
     making_a_donation: Donatii
     making_a_donation_description: "Loomio este o companie cooperativa sociala care lucreaza pentru a facilita partiparea fiecaruia la luarea unor decizii care il afecteaza. \n\nContributia ta ne ajuta sa dezvoltam Loomio intr-un mod independent, fara publicitate, si pe baza dorintelor comunitatii de utilizatori.\n\nMultumim ca faci acest lucru posibil.\n"
   resend_confirmation: "Retrimite instructiunile de confirmare"
@@ -618,7 +618,7 @@ ro:
     alternate: "Alternativ, raspandeste acest link si oricine va putea sa ceara accesul:"
     by_email: "Invita prin email"
     no_invitations_left: "Ne pare rau nu mai ai nici o invitatie ramasa"
-    no_invitations_left_get_more: "Te rugam sa contactezi contact@loomio.org si vom vedea ce putem face sa te ajutam"
+    no_invitations_left_get_more: "Te rugam sa contactezi contact@earthcells.net si vom vedea ce putem face sa te ajutam"
     invitation_not_found: 'Nu am gasit invitatia cu acest token. Cere o noua invitatie celui care ti-a trimis-o.'
     invitation_cancelled: 'Invitatia a fost retrasa. Te rugam sa contactezi pe cel care ti-a triis invitatia daca crezi ca este o eroare.'
     invitation_already_used: 'Aceasta invitatie a fost deja utilizata. Autentifica-te pentru a ajunge la grupul tau.'

@@ -1,6 +1,6 @@
 Given /^there is a WOC campaign record$/ do
   @campaign = Campaign.create(name: "woc",
-                  manager_email: "contact@loomio.org",
+                  manager_email: "contact@earthcells.net",
                   showcase_url: 'http://google.com')
 end
 

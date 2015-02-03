@@ -379,7 +379,7 @@ sr:
   confirm_leave_hidden_group: "Da li ste sigurni da želite da napustite %{which_group}? Bićete uklonjeni i iz svih podgrupa."
   confirm_leave_group: "Da li ste sigurni da želite da napustite grupu %{which_group}?"
   deactivate_group: "Deaktiviraj grupu"
-  confirm_deactivate_group: "Stanite! Da li ste sigurni da želite deaktivirati %{which_group}? Vi više nećete biti u mogućnosti da vidite grupu. Svejedno, ako želite da uzmete grupu nazad, možete nas pitati da je reaktiviramo za Vas tako što ćete poslati email na contact@loomio.org."
+  confirm_deactivate_group: "Stanite! Da li ste sigurni da želite deaktivirati %{which_group}? Vi više nećete biti u mogućnosti da vidite grupu. Svejedno, ako želite da uzmete grupu nazad, možete nas pitati da je reaktiviramo za Vas tako što ćete poslati email na contact@earthcells.net."
   invited_users: "Pozvani članovi"
   members: "Članovi"
   confirm_remove_user: "Da li ste sigurni da želite ukloniti %{which_user} iz grupe?"
@@ -443,7 +443,7 @@ sr:
       body_html: |
         Poslali smo vam jednu ePoruku sa pozivnicom za pokretanje Vaše grupe.
 
-        Ako kroz par minuta ne vidite ePoruku u vašem sandučetu, kontaktirajte nas na <a href='mailto:contact@loomio.org'>contact@loomio.org</a>.
+        Ako kroz par minuta ne vidite ePoruku u vašem sandučetu, kontaktirajte nas na <a href='mailto:contact@earthcells.net'>contact@earthcells.net</a>.
   thread_item:
     user_agreed_on_proposal_html: "<strong>%{name}</strong> se slaže sa predlogom."
     user_abstained_on_proposal_html: "<strong>%{name}</strong> se suzdržao/la o predlogu."
@@ -622,12 +622,12 @@ sr:
       <p>Ljudi će želeti da znaju zbog čega su pozvani, šta se od njih očekuje
       i zbog čega će im značiti da ulože svoje vreme u izučavanje toga kako Lumio radi.</p>
     join_the_community: "Pridruži se zajednici"
-    join_the_community_description_html: "Svi su dobrodošli da se priključe Lumio zajednici, gde razgovaramo kako da najbolje iskoristimo alat i kako može biti unapređen<br /><br /><a href='https://www.loomio.org/groups/3'>Škljocni ovde da odeš u Lumio Zajednica grupu</a>."
+    join_the_community_description_html: "Svi su dobrodošli da se priključe Lumio zajednici, gde razgovaramo kako da najbolje iskoristimo alat i kako može biti unapređen<br /><br /><a href='https://www.earthcells.net/groups/3'>Škljocni ovde da odeš u Lumio Zajednica grupu</a>."
     images_and_text_formatting: "Uređivanje slika i teksta"
     images_and_text_formatting_html: |
       <p>Lumio koristi ‘Markdown’ za ubacivanje slika i formatiranje teksta.
       Možete uključiti sa malom sivom ikonom ispod polja za komentar.</p>
-      <p><a href='https://www.loomio.org/discussions/1124'>Škljocni ovde</a>
+      <p><a href='https://www.earthcells.net/discussions/1124'>Škljocni ovde</a>
       za informacije o tome kako koristiti Markdown.</p>
     keep_up_to_date: "Budite u toku"
     keep_up_to_date_html: |
@@ -699,7 +699,7 @@ sr:
 
       Svi su dobrodošli u Lumio Zajednicu, gde razgovaramo o tome kako izvući optimum iz ove platforme i kako ona može biti unapređena.
 
-      <a href='https://www.loomio.org/groups/3'>Odvedi me u grupu Lumio Zajednice&raquo;</a>
+      <a href='https://www.earthcells.net/groups/3'>Odvedi me u grupu Lumio Zajednice&raquo;</a>
     making_a_donation: Donacije
     making_a_donation_description: |
       Lumio je kooperativna socijalna kompanija koja radi na tome da olakša  svima učestvovanje u odlukama koje ih se tiču.
@@ -749,7 +749,7 @@ sr:
     alternate: "Ili, podelite ovaj link i svako može pitati da se pridruži:"
     by_email: "Pozovi ePorukom"
     no_invitations_left: "Izvinite, nemate više pozivnica"
-    no_invitations_left_get_more: "Molim pošaljite ePoruku na contact@loomio.org i videćemo šta možemo uraditi da pomognemo"
+    no_invitations_left_get_more: "Molim pošaljite ePoruku na contact@earthcells.net i videćemo šta možemo uraditi da pomognemo"
     invitation_not_found: 'Ne možemo naći pozivnicu sa tim tokenom. Molimo Vas da zatražite novu pozivnicu od pošiljaoca.'
     invitation_cancelled: 'Ovaj poziv je otkazan. Molim Vas kontaktirajte pošiljaoca poziva ako verujete da je došlo do greške.'
     invitation_already_used: 'Ova pozivnica je već upotrebljena. Molimo Vas prijavite se da biste nastavili do svoje grupe.'

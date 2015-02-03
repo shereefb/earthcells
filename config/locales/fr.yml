@@ -362,7 +362,7 @@ fr:
   confirm_leave_hidden_group: "Êtes-vous certain de vouloir quitter %{which_group} ? Vous serez alors également retiré de ses éventuels sous-groupes."
   confirm_leave_group: "Etes vous certains de vouloir quitter %{which_group}?"
   deactivate_group: "Désactiver le groupe"
-  confirm_deactivate_group: "Attention !!! Êtes vous sur de vouloir désactiver %{which_group}?  Vous ne pourrez plus voir le groupe. Cependant, si vous voulez remettre le groupe en service, vous pouvez nous demander de le réactiver en nous envoyant un e-mail à contact@loomio.org."
+  confirm_deactivate_group: "Attention !!! Êtes vous sur de vouloir désactiver %{which_group}?  Vous ne pourrez plus voir le groupe. Cependant, si vous voulez remettre le groupe en service, vous pouvez nous demander de le réactiver en nous envoyant un e-mail à contact@earthcells.net."
   invited_users: "Membres invités"
   members: "Les membres"
   confirm_remove_user: "Etes vous sur de vouloir supprimer %{which_user} du groupe ?"
@@ -425,7 +425,7 @@ fr:
       title: Vous avez presque fini ! Consultez votre e-mail.
       body_html: |
         Nous vous avons envoyé une invitation par e-mail pour créer votre groupe.
-        Si vous ne le recevez pas après quelques minutes, envoyez nous un e-mail à <a href='mailto:contact@loomio.org'>contact@loomio.org</a>.
+        Si vous ne le recevez pas après quelques minutes, envoyez nous un e-mail à <a href='mailto:contact@earthcells.net'>contact@earthcells.net</a>.
   thread_item:
     user_agreed_on_proposal_html: "<strong>%{name}</strong> accepte la proposition."
     user_abstained_on_proposal_html: "<strong>%{name}</strong> s'abstient sur la proposition"
@@ -588,9 +588,9 @@ fr:
       <p>Ils voudront savoir pourquoi ils ont été invités,  ce que l'on attend d'eux,
       et pourquoi ils doivent apprendre à utiliser un nouvel outil.</p>
     join_the_community: "Rejoindre la communauté"
-    join_the_community_description_html: "Tout le monde est bienvenu dans la communauté Loomio, où nous parlons des améliorations de l'outil, et comment les mettre en oeuvre.<br /><br /><a href='https://www.loomio.org/groups/3'>Cliquer ici pour aller dans le groupe de la communauté Loomio</a>."
+    join_the_community_description_html: "Tout le monde est bienvenu dans la communauté Loomio, où nous parlons des améliorations de l'outil, et comment les mettre en oeuvre.<br /><br /><a href='https://www.earthcells.net/groups/3'>Cliquer ici pour aller dans le groupe de la communauté Loomio</a>."
     images_and_text_formatting: "Formatage des images et du texte"
-    images_and_text_formatting_html: "<p>Loomio utilise \"Markdown\"  pour l'intégration de l'image et la mise en forme du texte. \nVous pouvez activer \"Markdown\" avec la petite icône grise sous la boîte de commentaires.</p>\n<p><a href='https://www.loomio.org/discussions/1124'>Cliquez ici</a>\npour des informations sur l'utilisation de \"Markdown\".</p>\n"
+    images_and_text_formatting_html: "<p>Loomio utilise \"Markdown\"  pour l'intégration de l'image et la mise en forme du texte. \nVous pouvez activer \"Markdown\" avec la petite icône grise sous la boîte de commentaires.</p>\n<p><a href='https://www.earthcells.net/discussions/1124'>Cliquez ici</a>\npour des informations sur l'utilisation de \"Markdown\".</p>\n"
     keep_up_to_date: "Rester à jour"
     keep_up_to_date_html: "<p>En cliquant sur le nom du groupe en haut de l'écran vous arriverez sur la Page du Groupe,\noù vous pourrez voir une liste de discussions et décisions pour ce groupe. Si vous êtes dans \nplus d'un groupe, vous pouvez voir toute l'activité dans tous vos groupes à partir\nde la page d'Accueil.</p>\n<p>Vous recevrez des notifications par e-mail lorsque des choses importantes arriveront\ndans votre groupe.\nVous\
       \ pouvez changer votre e-mail  <a href=\"%{link}\"\">ici</a>.</p>\n"
@@ -648,7 +648,7 @@ fr:
 
       Tout le monde peut rejoindre la communauté Loomio, ou nous parlons du développement de l'outil, et de la manière de l'améliorer.
 
-      <a href='https://www.loomio.org/groups/3'>Emmenez-moi au groupe de la Communauté Loomio &raquo;</a>⏎
+      <a href='https://www.earthcells.net/groups/3'>Emmenez-moi au groupe de la Communauté Loomio &raquo;</a>⏎
     making_a_donation: Faire un don
     making_a_donation_description: |
       Loomio est une entreprise sociale coopérative qui travaille pour rendre plus facile pour tous la participation aux décisions qui les concernent.
@@ -698,7 +698,7 @@ fr:
     alternate: "Alternativement, partagez ce lien et n'importe qui peut demander à rejoindre :"
     by_email: "Inviter par e-mail"
     no_invitations_left: "Désolé, vous n'avez plus d'invitations disponibles"
-    no_invitations_left_get_more: "Merci de nous envoyer un e-mail à contact@loomio.org et nous verrons comment nous pouvons vous assister"
+    no_invitations_left_get_more: "Merci de nous envoyer un e-mail à contact@earthcells.net et nous verrons comment nous pouvons vous assister"
     invitation_not_found: 'Impossible de trouver une invitation sous cette référence. Merci de demander une nouvelle invitation à celui qui vous l''a envoyé.'
     invitation_cancelled: 'Cette invitation a été annulée. Merci de contacter la personne qui vous l''a envoyée si vous croyez que c''est une erreur.'
     invitation_already_used: 'Cette invitation a déjà été utilisée. Merci de vous connecter pour continuer dans votre groupe.'

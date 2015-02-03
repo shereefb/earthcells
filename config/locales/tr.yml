@@ -365,7 +365,7 @@ tr:
   confirm_leave_hidden_group: "%{which_group} grubundan ayrılmak istediğine emin misin? Ayrıca tüm alt gruplardan da kaldırılacaksın."
   confirm_leave_group: "%{which_group},undan ayrılmak istediğinize emin misiniz?"
   deactivate_group: "Grubu devre dışı bırak"
-  confirm_deactivate_group: "Bekle!!! %{which_group}'u devre dışı bırakmak istediğinden emin misin? Artık grubu görüntülemen mümkün olmayacak. Ancak, eğer grubu geri almak istersen contact@loomio.org bir e-posta göndererek bizden grubu yeniden etkinleştirmemizi isteyebilirsin."
+  confirm_deactivate_group: "Bekle!!! %{which_group}'u devre dışı bırakmak istediğinden emin misin? Artık grubu görüntülemen mümkün olmayacak. Ancak, eğer grubu geri almak istersen contact@earthcells.net bir e-posta göndererek bizden grubu yeniden etkinleştirmemizi isteyebilirsin."
   invited_users: "Davetli üyeler"
   members: "Üyeler"
   confirm_remove_user: "%{which_user} üyesini gruptan çıkarmak istediğine emin misin?"
@@ -429,7 +429,7 @@ tr:
       body_html: |
         Sana grup başlatma daveti içeren bir e-posta gönderdik.
 
-        Eğer gelen kutusunda birkaç dakika içerisinde göremezseniz <a href='mailto:contact@loomio.org'>contact@loomio.org</a> adresine e-posta göndererek bize ulaşabilirsin.
+        Eğer gelen kutusunda birkaç dakika içerisinde göremezseniz <a href='mailto:contact@earthcells.net'>contact@earthcells.net</a> adresine e-posta göndererek bize ulaşabilirsin.
   discussion_items:
     new_discussion: "müzakereyi oluşturdu"
     new_motion: "bir öneri oluşturdu"
@@ -587,7 +587,7 @@ tr:
       ve yeni bir aracı kullanmayı öğrenmek için zamanlarından harcamaya değip değimediğini bilmek isteyecek.</p>
 
     join_the_community: "Topluluğa katıl"
-    join_the_community_description_html: "Loomio'yu nasıl geliştirilebiliriz ve nasıl en iyi şekilde kullanabiliriz konularını konuştuğumuz Loomio Topluluğuna herkes katılmakta özgürdür. <br /><br /><a href='https://www.loomio.org/groups/3'>Loomio Topluluğu grubuna gitmek için tıklayın.</a>."
+    join_the_community_description_html: "Loomio'yu nasıl geliştirilebiliriz ve nasıl en iyi şekilde kullanabiliriz konularını konuştuğumuz Loomio Topluluğuna herkes katılmakta özgürdür. <br /><br /><a href='https://www.earthcells.net/groups/3'>Loomio Topluluğu grubuna gitmek için tıklayın.</a>."
     images_and_text_formatting: "Resimler ve metin biçimlendirme"
     keep_up_to_date: "Güncel tutun"
     make_a_decision: "Bir karar ver"
@@ -664,7 +664,7 @@ tr:
     alternate: "Alternatif olarak, bu bağlantıyı paylaşın ve herhangi birinin katılabilmesini isteyin:"
     by_email: "E-posta ile davet et"
     no_invitations_left: "Maalesef hiç davetiyen kalmadı"
-    no_invitations_left_get_more: "Sana yardımcı olabilmemiz için lütfen contact@loomio.org e-posta gönder"
+    no_invitations_left_get_more: "Sana yardımcı olabilmemiz için lütfen contact@earthcells.net e-posta gönder"
     invitation_not_found: 'Bu kuponla ilişik bir davetiye bulunamadı. Lütfen seni davet eden kişiden yeni bir davetiye talep et.'
     invitation_cancelled: 'Bu davetiye iptal edildi. Eğer bunun bir hata olduğunu düşünüyorsan, lütfen seni davet eden kişiyle irtibata geç.'
     invitation_already_used: 'Bu davetiye daha önce kullanılmış. Lütfen, gruba devam etmek için giriş yapın.'

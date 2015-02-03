@@ -41,11 +41,11 @@ class SetupGroup
   end
 
   def self.find_or_create_helper_bot
-    helper_bot = User.find_by_email('contact@loomio.org')
+    helper_bot = User.find_by_email('contact@earthcells.net')
     unless helper_bot
       helper_bot = User.new
       helper_bot.name = 'Loomio Helper Bot'
-      helper_bot.email = 'contact@loomio.org'
+      helper_bot.email = 'contact@earthcells.net'
       helper_bot.password = SecureRandom.hex(20)
       helper_bot.save!
     end

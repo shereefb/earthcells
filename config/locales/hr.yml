@@ -379,7 +379,7 @@ hr:
   confirm_leave_hidden_group: "Jeste li sigurni da želite napustiti %{which_group}? Napustit ćete i podgrupe."
   confirm_leave_group: "Jeste li sigurni da želite napustiti %{which_group}?"
   deactivate_group: "Dektivacija grupe"
-  confirm_deactivate_group: "Samo malo!!! Jeste li sigurni da želite deaktivirati %{which_group}? Nećete biti u mogućnosti pratiti grupu. Grupu možete reaktivirati slanjem poruke  a contact@loomio.org"
+  confirm_deactivate_group: "Samo malo!!! Jeste li sigurni da želite deaktivirati %{which_group}? Nećete biti u mogućnosti pratiti grupu. Grupu možete reaktivirati slanjem poruke  a contact@earthcells.net"
   invited_users: "Pozvani članovi"
   members: "Članovi"
   confirm_remove_user: "Jeste li sigurni da želite %{which_user} maknuti iz grupe?"
@@ -443,7 +443,7 @@ hr:
       body_html: |
         Poslali smo vam email s pozivom da započnete svoju grupu.
 
-        Ako ne dobijete poruku u narednih par minute, pošaljite nam e-mail na <a href='mailto:contact@loomio.org'>contact@loomio.org</a>.
+        Ako ne dobijete poruku u narednih par minute, pošaljite nam e-mail na <a href='mailto:contact@earthcells.net'>contact@earthcells.net</a>.
   thread_item:
     user_agreed_on_proposal_html: "<strong>%{name}</strong> slaže se s prijedlogom."
     user_abstained_on_proposal_html: "<strong>%{name}</strong> suzdržani su od prijedloga."

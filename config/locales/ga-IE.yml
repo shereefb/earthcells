@@ -283,7 +283,7 @@ ga-IE:
     create_account: "Cruthaigh cuntas le do thoil"
   invitation:
     no_invitations_left: "Is dona linn ach níl aon chuireadh fágtha agat"
-    no_invitations_left_get_more: "Seol ríomhphost chuig contact@loomio.org agus déanaimid ár ndícheall chun cabhrú leat"
+    no_invitations_left_get_more: "Seol ríomhphost chuig contact@earthcells.net agus déanaimid ár ndícheall chun cabhrú leat"
     message_body: "Teachtaireacht an chuiridh"
     invitation_link: "Nasc an chuiridh"
     pending_invitations: 'Cuirí ar feitheamh'

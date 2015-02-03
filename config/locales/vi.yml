@@ -157,7 +157,7 @@ vi:
   leave_group: "Rời khỏi nhóm"
   confirm_leave_group: "Bạn có chắc muốn rời khỏi %{which_group}?"
   deactivate_group: "Tái-kích hoạt nhóm"
-  confirm_deactivate_group: "Chờ chút!!! Bạn có chắc rằng bạn muốn ngưng kích hoạt %{which_group}? Bạn sẽ không còn được nhìn thấy thông tin về nhóm này nữa. Tuy nhiên, nếu bạn muốn quay trở lại nhóm thì hãy gửi yêu cầu đến chúng tôi tại contact@loomio.org."
+  confirm_deactivate_group: "Chờ chút!!! Bạn có chắc rằng bạn muốn ngưng kích hoạt %{which_group}? Bạn sẽ không còn được nhìn thấy thông tin về nhóm này nữa. Tuy nhiên, nếu bạn muốn quay trở lại nhóm thì hãy gửi yêu cầu đến chúng tôi tại contact@earthcells.net."
   invited_users: "Các thành viên đã mời"
   members: "Thành viên"
   confirm_remove_user: "Bạn có muốn loại bỏ %{which_user} khỏi nhóm hay không?"
@@ -199,7 +199,7 @@ vi:
       body_html: |
         Chúng tôi đã gửi cho bạn một email để mời bạn tham gia vào nhóm của mình.
 
-        Nếu bạn không thấy email nào trong hộp thư của mình, hãy liên hệ chúng tôi tại<a href='mailto:contact@loomio.org'>contact@loomio.org</a>.
+        Nếu bạn không thấy email nào trong hộp thư của mình, hãy liên hệ chúng tôi tại<a href='mailto:contact@earthcells.net'>contact@earthcells.net</a>.
   discussion_items:
     new_discussion: "đã tạo phần thảo luận"
     new_motion: "đã tạo lời đề nghị"
@@ -367,7 +367,7 @@ vi:
   unlock_not_received: "Không nhận được hướng dẫn mở khóa?"
   invitation:
     no_invitations_left: "Rất tiếc, bạn không còn lời mời nào"
-    no_invitations_left_get_more: "Vui lòng gửi email đến contact@loomio.org và chúng tôi sẽ xem xét trường hợp của bạn"
+    no_invitations_left_get_more: "Vui lòng gửi email đến contact@earthcells.net và chúng tôi sẽ xem xét trường hợp của bạn"
     invitation_not_found: 'Không thể tìm thấy lời mời nào khớp với mã xác nhận đó. Hãy yêu cầu người gửi gửi lại cho bạn một lời mời mới.'
     invitation_cancelled: 'Lời mời tham gia này đã bị hủy bỏ. Vui lòng liên hệ người gửi về lời mời tham gia nhóm nếu bạn nghĩ rằng đã có lỗi xảy ra.'
     recipients: "Điền vào các địa chỉ email, tách biệt bởi dấu phẩy:"

@@ -27,7 +27,7 @@ Then(/^I should see that someone closed the motion$/) do
 end
 
 Given(/^a visitor has requested membership to the group$/) do
-  params = { name: "Richie", email: "rich@loomio.org", group: @group }
+  params = { name: "Richie", email: "rich@earthcells.net", group: @group }
   @membership_request = MembershipRequest.new(params)
   MembershipRequestService.new(@membership_request).perform!
 end

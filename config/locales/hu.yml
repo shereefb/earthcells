@@ -152,7 +152,7 @@ hu:
   leave_group: "kilépés a csoportból"
   confirm_leave_group: "Biztosan kilépsz a(z) %{which_group} csoportból?"
   deactivate_group: "Csoport deaktiválása"
-  confirm_deactivate_group: "Várj!!! Biztosan deaktiválni akarod a(z) %{which_group} csoportot? Többet nem jelenik meg neked a csoport. Ha azonban mégis vissza szeretnéd kapni a csoportot, reaktiválhatjuk, ha a contact@loomio.org címre küldesz egy kérést."
+  confirm_deactivate_group: "Várj!!! Biztosan deaktiválni akarod a(z) %{which_group} csoportot? Többet nem jelenik meg neked a csoport. Ha azonban mégis vissza szeretnéd kapni a csoportot, reaktiválhatjuk, ha a contact@earthcells.net címre küldesz egy kérést."
   invited_users: "Meghívott tagok"
   members: "Tagok"
   confirm_remove_user: "Biztosan el akarod távolítani %{which_user}-t a csoportból?"
@@ -284,11 +284,11 @@ hu:
       <p>Tudni akarják majd, hogy miért hívtad meg őket, mit várnak el tőlük és miért érdemes időt és energiát fektetniük a loomio használatába.</p>
 
     join_the_community: "Csatlakozz a közösséghez"
-    join_the_community_description_html: "Mindenkit várunk a Loomio Community csoportba, ahol megbeszélhetjük, hogyan lehet még jobb ez az eszköz. <br /><br /><a href='https://www.loomio.org/groups/3'>Ide kattintva juthatsz a Loomio Community csoportba.</a>"
+    join_the_community_description_html: "Mindenkit várunk a Loomio Community csoportba, ahol megbeszélhetjük, hogyan lehet még jobb ez az eszköz. <br /><br /><a href='https://www.earthcells.net/groups/3'>Ide kattintva juthatsz a Loomio Community csoportba.</a>"
     images_and_text_formatting: "Képek és szövegformázás"
     images_and_text_formatting_html: |+
       <p>A Loomio a képek beillesztéséhez és a szöveg formázásához a "Markdown" rendszert használja. A hozzászólás ablak alatti kis szürke ikonnal kapcsolhatod be a Markdownt.</p>
-      <p><a href='https://www.loomio.org/discussions/1124'>Ide kattintva</a> további információkat kaphatsz a Markdown rendszerről.</p>
+      <p><a href='https://www.earthcells.net/discussions/1124'>Ide kattintva</a> további információkat kaphatsz a Markdown rendszerről.</p>
 
     keep_up_to_date: "Maradj naprakész"
     keep_up_to_date_html: |+
@@ -343,7 +343,7 @@ hu:
   unlock_not_received: "Nem kaptad meg a feloldási instrukciókat?"
   invitation:
     no_invitations_left: "Bocs, nincs már meghívód"
-    no_invitations_left_get_more: "Írj a contact@loomio.org címre, hátha segíthetünk"
+    no_invitations_left_get_more: "Írj a contact@earthcells.net címre, hátha segíthetünk"
     invitation_not_found: 'nem találtunk meghívót ezzel a kóddal. Kérj új meghívót!'
     invitation_cancelled: 'Ezt a meghívót visszavonták. Írj annak, akitől kaptad, ha szerinted hiba történt.'
     invitees_placeholder: "Felhasználónév <egyik@pelda.com>, masik@pelda.com"

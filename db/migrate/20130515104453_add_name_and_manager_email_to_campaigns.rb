@@ -7,7 +7,7 @@ class AddNameAndManagerEmailToCampaigns < ActiveRecord::Migration
     add_column :campaigns, :manager_email, :string
 
     Campaign.reset_column_information
-    Campaign.update_all(name: "woc", manager_email: "contact@loomio.org")
+    Campaign.update_all(name: "woc", manager_email: "contact@earthcells.net")
 
     change_column :campaigns, :name, :string, null: false
     change_column :campaigns, :manager_email, :string, null: false

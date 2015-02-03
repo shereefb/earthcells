@@ -209,7 +209,7 @@ ko:
   confirm_leave_hidden_group: " %{which_group}에서 떠나기를 원하십니까? 하위 그룹에서도 삭제가 됩니다."
   confirm_leave_group: "%{which_group} 그룹을 떠나는것이 확실한가요?"
   deactivate_group: "그룹 비활성화"
-  confirm_deactivate_group: "잠깐만요 !!!. %{which_group} 그룹을 비활성화 하는것이 확실한가요? 이 그룹을 더 이상 볼 수 없습니다.\n하지만, 그룹을 다시 활성화 하고자 하신다면 contact@loomio.org 이메일 주소로 메일을 보내주시면 다시 활성화 할 수 있습니다. "
+  confirm_deactivate_group: "잠깐만요 !!!. %{which_group} 그룹을 비활성화 하는것이 확실한가요? 이 그룹을 더 이상 볼 수 없습니다.\n하지만, 그룹을 다시 활성화 하고자 하신다면 contact@earthcells.net 이메일 주소로 메일을 보내주시면 다시 활성화 할 수 있습니다. "
   invited_users: "초대된 멤버"
   members: "멤버"
   confirm_remove_user: "%{which_user}님을 그룹에서 삭제하는것이 확실한가요?"
@@ -348,7 +348,7 @@ ko:
     help: "도움말"
     how_it_works: "사용설명"
     join_the_community: "커뮤니티에 참여하기"
-    join_the_community_description_html: "대부분의 도구를 어떻게 사용하고 발전시킬지 이야기 하는 루미도 커뮤니티에 함께 하는 것을 환영합니다.\n<br /><br /><a href='https://www.loomio.org/groups/3'>루미오 커뮤니티 그룹으로 이동하려면 여기를 클릭하세요.</a>."
+    join_the_community_description_html: "대부분의 도구를 어떻게 사용하고 발전시킬지 이야기 하는 루미도 커뮤니티에 함께 하는 것을 환영합니다.\n<br /><br /><a href='https://www.earthcells.net/groups/3'>루미오 커뮤니티 그룹으로 이동하려면 여기를 클릭하세요.</a>."
     images_and_text_formatting: "이미지와 문자 형식"
     keep_up_to_date: "최신 상태로 유지"
     make_a_decision: "의사결정하기"
@@ -422,7 +422,7 @@ ko:
     alternate: "대안적으로, 이 링크를 공유해서 누구에게나 가입을 요청할 수 있습니다."
     by_email: "이메일로 초대하기"
     no_invitations_left: "죄송합니다 남아있는 초대가 없습니다."
-    no_invitations_left_get_more: "contact@loomio.org로 이메일을 보내주세요. 어떤 도움을 드릴 수 있을지 살펴보겠습니다."
+    no_invitations_left_get_more: "contact@earthcells.net로 이메일을 보내주세요. 어떤 도움을 드릴 수 있을지 살펴보겠습니다."
     invitation_not_found: '이 토큰을 가지고 있는 초대를 찾을 수 없습니다. 초대장을 보낸 분에게 새로운 초대를 요청하세요.'
     invitation_cancelled: '초대가 취소되었습니다. 초대 취소가 오류인것 같다면 초대장을 보낸 분에게 연락해 보세요.'
     invitation_already_used: '이 초대는 이미 사용되었습니다. 그룹 로그인을 계속해 보세요.'

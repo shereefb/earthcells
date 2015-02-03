@@ -1,7 +1,7 @@
 Given(/^there is a We The People campaign record$/) do
   @group = FactoryGirl.create :group, name: "We The People Groupy"
   @campaign = Campaign.create(name: "we the people",
-                  manager_email: "contact@loomio.org",
+                  manager_email: "contact@earthcells.net",
                   showcase_url: group_path(@group))
 end
 

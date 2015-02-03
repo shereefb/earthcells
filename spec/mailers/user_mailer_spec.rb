@@ -7,7 +7,7 @@ describe UserMailer do
     end
 
     it 'renders the sender email' do
-      @mail.from.should == ['notifications@loomio.org']
+      @mail.from.should == ['notifications@earthcells.net']
     end
   end
 

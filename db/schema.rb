@@ -124,7 +124,7 @@ ActiveRecord::Schema.define(version: 20141120213103) do
     t.text     "message"
     t.datetime "created_at",                                 null: false
     t.datetime "updated_at",                                 null: false
-    t.string   "destination", default: "contact@loomio.org"
+    t.string   "destination", default: "contact@earthcells.net"
   end
 
   create_table "contacts", force: true do |t|

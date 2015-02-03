@@ -233,7 +233,7 @@ class User < ActiveRecord::Base
   end
 
   def self.helper_bots
-    where(email: ['contact@loomio.org', 'contact@loom.io'])
+    where(email: ['contact@earthcells.net', 'contact@loom.io'])
   end
 
   def self.find_by_email(email)

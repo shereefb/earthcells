@@ -52,8 +52,8 @@ Loomio::Application.configure do
   # config.assets.precompile += %w( search.js )
 
   # Disable delivery errors, bad email addresses will be ignored
-  # config.action_mailer.raise_delivery_errors = false
-
+  config.action_mailer.raise_delivery_errors = true
+  
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
 
@@ -71,5 +71,5 @@ Loomio::Application.configure do
     :enable_starttls_auto => true
   }
 
-  config.action_mailer.raise_delivery_errors = true
+
 end

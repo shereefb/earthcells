@@ -7,7 +7,7 @@ describe UserMailer do
     end
 
     it 'renders the sender email' do
-      @mail.from.should == ['notifications@earthcells.net']
+      @mail.from.should == ['info@earthcells.net']
     end
   end
 
@@ -25,7 +25,7 @@ describe UserMailer do
     end
 
     it 'renders the subject' do
-      @mail.subject.should == "[Loomio: #{@group.full_name}] Membership approved"
+      @mail.subject.should == "[Earthcells: #{@group.full_name}] Membership approved"
     end
 
     it 'assigns confirmation_url for email body' do

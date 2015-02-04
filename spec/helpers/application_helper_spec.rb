@@ -35,10 +35,10 @@ describe ApplicationHelper do
 
   describe "display_title" do
     it "shows Loomio name" do
-      helper.display_title(double(:size => 0)).should == "Loomio"
+      helper.display_title(double(:size => 0)).should == "Earthcells"
     end
     it "shows notifications in paranthensis (if any)" do
-      helper.display_title(double(:size => 2)).should == "(2) Loomio"
+      helper.display_title(double(:size => 2)).should == "(2) Earthcells"
     end
   end
   describe "set_title" do

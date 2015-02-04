@@ -67,7 +67,8 @@ Loomio::Application.configure do
     :authentication => :plain,
     :user_name      => ENV['SMTP_USERNAME'],
     :password       => ENV['SMTP_PASSWORD'],
-    :domain         => ENV['SMTP_DOMAIN']
+    :domain         => ENV['SMTP_DOMAIN'],
+    :enable_starttls_auto => true
   }
 
   config.action_mailer.raise_delivery_errors = true

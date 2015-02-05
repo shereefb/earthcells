@@ -171,7 +171,7 @@ class Group < ActiveRecord::Base
   before_save :set_creator_if_blank
   
   def subgroups
-    self.children.archived
+    self.children.published
   end
   
   def all_subgroups
@@ -410,7 +410,8 @@ class Group < ActiveRecord::Base
   end
   
   def update_full_name_of_subgroups_if_name_changed
-    if changes.include?('name')
+    logger.info("updating subgroups")
+    if self.name_changed?
       subgroups.each do |subgroup|
         subgroup.full_name = name + " - " + subgroup.name
         subgroup.save(validate: false)

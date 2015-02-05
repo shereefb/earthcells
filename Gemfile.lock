@@ -87,6 +87,7 @@ GEM
       json (~> 1.8.0)
       nokogiri (~> 1.6.0)
       savon (~> 2.0)
+    bond (0.5.1)
     bootstrap-sass (3.2.0.2)
       sass (~> 3.2)
     bourbon (4.1.1)
@@ -531,6 +532,8 @@ GEM
       rspec-mocks (>= 2.99, < 4.0)
     rspec-collection_matchers (1.1.2)
       rspec-expectations (>= 2.99.0.beta1)
+    rspec-console (0.4.0)
+      bond
     rspec-core (3.2.0)
       rspec-support (~> 3.2.0)
     rspec-expectations (3.2.0)
@@ -741,6 +744,7 @@ DEPENDENCIES
   roadie-rails (~> 1.0.2)
   rspec-activemodel-mocks
   rspec-collection_matchers
+  rspec-console
   rspec-its
   rspec-rails
   ruby-progressbar

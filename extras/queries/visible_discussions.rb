@@ -68,13 +68,21 @@ class Queries::VisibleDiscussions < Delegator
     # the discussion is public
     # or they are a member of the group
 
+
+    # relation = relation.where("((discussions.private = :false) OR
+    #                             (discussions.group_id IN (:user_group_ids)) OR
+    #                             (groups.parent_members_can_see_discussions = TRUE AND CAST(groups.ancestry as integer) IN (:user_group_ids)))",
+    #                            false: false,
+    #                            group_ids: group_ids,
+    #                            user_group_ids: user_group_ids)
+
     relation = relation.where("((discussions.private = :false) OR
                                 (discussions.group_id IN (:user_group_ids)) OR
-                                (groups.parent_members_can_see_discussions = TRUE))",
+                                (groups.parent_members_can_see_discussions = TRUE AND CAST(groups.ancestry as integer) IN (:user_group_ids)))",
                                false: false,
                                group_ids: group_ids,
                                user_group_ids: user_group_ids)
-
+    
     if group_ids.present?
       relation = relation.where('discussions.group_id in (:group_ids)', group_ids: group_ids)
     end

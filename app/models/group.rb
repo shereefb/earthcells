@@ -25,6 +25,7 @@ class Group < ActiveRecord::Base
   validate :validate_discussion_privacy_options
 
   before_save :update_full_name_if_name_changed
+  after_save :update_full_name_of_subgroups_if_name_changed
   before_validation :set_discussions_private_only, if: :is_hidden_from_public?
 
   include PgSearch
@@ -138,16 +139,6 @@ class Group < ActiveRecord::Base
   belongs_to :category
   belongs_to :theme
 
-  has_many :subgroups,
-           -> { where(archived_at: nil).order(:name) },
-           class_name: 'Group',
-           foreign_key: 'parent_id'
-
-  # maybe change this to just archived_subgroups
-  has_many :all_subgroups,
-           class_name: 'Group',
-           foreign_key: :parent_id
-
   has_one :subscription, dependent: :destroy
 
   delegate :include?, to: :users, prefix: true
@@ -178,6 +169,14 @@ class Group < ActiveRecord::Base
 
 
   before_save :set_creator_if_blank
+  
+  def subgroups
+    self.children.archived
+  end
+  
+  def all_subgroups
+    self.children
+  end
 
   def set_creator_if_blank
     if self[:creator_id].blank? and admins.any?
@@ -407,6 +406,11 @@ class Group < ActiveRecord::Base
   def update_full_name_if_name_changed
     if changes.include?('name')
       update_full_name
+    end
+  end
+  
+  def update_full_name_of_subgroups_if_name_changed
+    if changes.include?('name')
       subgroups.each do |subgroup|
         subgroup.full_name = name + " - " + subgroup.name
         subgroup.save(validate: false)
@@ -448,7 +452,8 @@ class Group < ActiveRecord::Base
   end
 
   def organisation_discussions_count
-    Group.where("parent_id = ? OR (parent_id IS NULL AND id = ?)", parent_or_self.id, parent_or_self.id).sum(:discussions_count)
+    ##BUGBUG Not accurate, but who cares
+    self.subtree.sum(:discussions_count)
   end
 
   def organisation_motions_count

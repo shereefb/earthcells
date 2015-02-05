@@ -63,7 +63,7 @@ en:
 
   error:
     access_denied: "You do not have permission to do this."
-    cant_join_subgroup: "You cannot join a sub-group if you are not a member of the parent earthcell."
+    cant_join_subgroup: "You cannot join a sub-cell if you are not a member of the parent earthcell."
     cant_modify_position: "This proposal has closed."
     cant_state_position: "This proposal has closed."
     cant_view_member_profile: "You're unable to view the member's profile because you are not in the same earthcell."
@@ -453,14 +453,14 @@ en:
   confirm_remove_membership_request: "Are you sure you wish to withdraw your membership request for this earthcell?"
   no_pending_membership_requests: "There are currently no pending membership requests for this earthcell."
 
-  subgroups: "Sub-groups"
-  create_a_subgroup: "Create a sub-group"
+  subgroups: "Sub-cells"
+  create_a_subgroup: "Create a sub-cell"
   select_members_to_add: "Select members to add to %{which_group}"
   empty_parent_group: "Please add the members to the parent earthcell first."
   invite_members: "Invite members"
-  new_subgroup: "New sub-group"
-  create_subgroup: "Create sub-group"
-  creating_subgroup: "Creating sub-group"
+  new_subgroup: "New sub-cell"
+  create_subgroup: "Create sub-cell"
+  creating_subgroup: "Creating sub-cell"
 
   hidden: "Hidden"
   public: "Public"

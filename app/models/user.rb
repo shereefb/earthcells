@@ -143,9 +143,9 @@ class User < ActiveRecord::Base
   end
 
   def top_level_groups
-    parents = groups.parents_only.order(:name).includes(:children)
+    groups.parents_only.order(:name) #.includes(:children)
     # orphans = groups.where('parent_id not in (?)', parents.map(&:id))
-    parents.sort{|a, b| a.full_name <=> b.full_name }
+    # parents.sort{|a, b| a.full_name <=> b.full_name }
   end
 
   def inbox_groups

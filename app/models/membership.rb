@@ -33,7 +33,7 @@ class Membership < ActiveRecord::Base
   end
 
   def subgroup_memberships
-    Membership.where(group_id: group.subgroup_ids, user_id: user_id)
+    Membership.where(group_id: group.subgroups.ids, user_id: user_id)
   end
 
   def make_admin!

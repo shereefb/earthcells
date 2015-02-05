@@ -410,7 +410,6 @@ class Group < ActiveRecord::Base
   end
   
   def update_full_name_of_subgroups_if_name_changed
-    logger.info("updating subgroups")
     if self.name_changed?
       subgroups.each do |subgroup|
         subgroup.full_name = name + " - " + subgroup.name
@@ -462,7 +461,7 @@ class Group < ActiveRecord::Base
   end
 
   def org_group_ids
-    [parent_or_self.id, parent_or_self.subgroup_ids].flatten
+    [parent_or_self.id, parent_or_self.subgroups.ids].flatten
   end
 
   def has_subdomain?

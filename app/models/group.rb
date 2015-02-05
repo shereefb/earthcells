@@ -6,7 +6,7 @@ class Group < ActiveRecord::Base
   class MaximumMembershipsExceeded < Exception
   end
 
-  acts_as_tree
+  has_ancestry
 
   PAYMENT_PLANS = ['pwyc', 'subscription', 'manual_subscription', 'undetermined']
   DISCUSSION_PRIVACY_OPTIONS = ['public_only', 'private_only', 'public_or_private']
@@ -302,11 +302,11 @@ class Group < ActiveRecord::Base
   end
 
   def is_parent?
-    parent_id.blank?
+    has_children?
   end
 
   def is_subgroup?
-    !is_parent?
+    !is_root?
   end
 
   def admin_email

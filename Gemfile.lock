@@ -67,6 +67,8 @@ GEM
     akami (1.2.2)
       gyoku (>= 0.4.0)
       nokogiri
+    ancestry (2.1.0)
+      activerecord (>= 3.0.0)
     arbre (1.0.3)
       activesupport (>= 3.0.0)
     arel (5.0.1.20140414130214)
@@ -661,6 +663,7 @@ DEPENDENCIES
   activeadmin!
   activerecord-postgres-hstore
   airbrake
+  ancestry
   autoprefixer-rails
   awesome_print
   better_errors

@@ -66,6 +66,7 @@ gem 'momentjs-rails'
 gem 'ruby-progressbar'
 gem 'dotenv'# , :require => 'dotenv/rails-now'
 gem 'gollum'
+gem 'ancestry'
 
 # consider uncommenting these when we want to mess around with json parsing
 #gem 'oj'

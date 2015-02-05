@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141120213103) do
+ActiveRecord::Schema.define(version: 20150205045831) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -124,7 +124,7 @@ ActiveRecord::Schema.define(version: 20141120213103) do
     t.text     "message"
     t.datetime "created_at",                                 null: false
     t.datetime "updated_at",                                 null: false
-    t.string   "destination", default: "contact@earthcells.net"
+    t.string   "destination", default: "contact@loomio.org"
   end
 
   create_table "contacts", force: true do |t|
@@ -289,7 +289,6 @@ ActiveRecord::Schema.define(version: 20141120213103) do
     t.datetime "updated_at"
     t.string   "privacy",                            default: "private"
     t.string   "members_invitable_by"
-    t.integer  "parent_id"
     t.boolean  "hide_members",                       default: false
     t.text     "description"
     t.integer  "memberships_count",                  default: 0,              null: false
@@ -333,15 +332,16 @@ ActiveRecord::Schema.define(version: 20141120213103) do
     t.boolean  "members_can_start_discussions",      default: true,           null: false
     t.boolean  "members_can_create_subgroups",       default: true,           null: false
     t.integer  "creator_id"
+    t.string   "ancestry"
   end
 
+  add_index "groups", ["ancestry"], name: "index_groups_on_ancestry", using: :btree
   add_index "groups", ["archived_at", "id"], name: "index_groups_on_archived_at_and_id", using: :btree
   add_index "groups", ["category_id"], name: "index_groups_on_category_id", using: :btree
   add_index "groups", ["full_name"], name: "index_groups_on_full_name", using: :btree
   add_index "groups", ["is_visible_to_public"], name: "index_groups_on_is_visible_to_public", using: :btree
   add_index "groups", ["key"], name: "index_groups_on_key", unique: true, using: :btree
   add_index "groups", ["name"], name: "index_groups_on_name", using: :btree
-  add_index "groups", ["parent_id"], name: "index_groups_on_parent_id", using: :btree
 
   create_table "invitations", force: true do |t|
     t.string   "recipient_email",                 null: false
@@ -464,6 +464,12 @@ ActiveRecord::Schema.define(version: 20141120213103) do
   add_index "omniauth_identities", ["email"], name: "index_personas_on_email", using: :btree
   add_index "omniauth_identities", ["provider", "uid"], name: "index_omniauth_identities_on_provider_and_uid", using: :btree
   add_index "omniauth_identities", ["user_id"], name: "index_personas_on_user_id", using: :btree
+
+  create_table "pages", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "subscriptions", force: true do |t|
     t.integer  "group_id"

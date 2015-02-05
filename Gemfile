@@ -118,6 +118,6 @@ group :production do
   gem 'delayed-plugins-airbrake'
   gem 'memcachier'
   gem 'dalli'
-  gem 'newrelic_rpm'
+#  gem 'newrelic_rpm'
   gem 'heroku-deflater'
 end

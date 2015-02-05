@@ -406,7 +406,6 @@ GEM
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.2)
-    newrelic_rpm (3.9.9.275)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     nori (2.4.0)
@@ -715,7 +714,6 @@ DEPENDENCIES
   minitest
   modernizr-rails
   momentjs-rails
-  newrelic_rpm
   nokogiri
   omniauth (~> 1.2.2)
   omniauth-browserid

@@ -44,7 +44,7 @@ class Ability
 
     can [:view_payment_details,
          :choose_subscription_plan], Group do |group|
-      group.is_parent? and user_is_admin_of?(group.id) and (!group.has_manual_subscription?)
+      group.is_root? and user_is_admin_of?(group.id) and (!group.has_manual_subscription?)
     end
 
     can [:update,
@@ -68,7 +68,7 @@ class Ability
     # please note that I don't like this duplication either.
     # add_subgroup checks against a parent group
     can [:add_subgroup], Group do |group|
-      group.is_parent? &&
+      group.is_root? &&
       user_is_member_of?(group.id) &&
       (group.members_can_create_subgroups? || user_is_admin_of?(group.id))
     end
@@ -79,7 +79,7 @@ class Ability
       # otherwise, the group must be a subgroup
       # inwhich case we need to confirm membership and permission
 
-      group.is_parent? ||
+      group.root? ||
        ((user_is_member_of?(group.parent.id) && group.parent.members_can_create_subgroups?)) ||
        user_is_admin_of?(group.parent.id)
     end

@@ -21,9 +21,8 @@
     .tab-pane.active#profile
       = f.input :name, label: t(:'group_form.name')
       = f.input :description, as: :text, label: t(:'group_form.description')
-      - if group.is_parent?
-        - translated_categories = Category.all.map{|c| [t(c.translatable_name), c.id]}
-        = f.input :category_id, as: :select, collection: translated_categories, include_blank: t(:"group_categories.blank"), label: t(:"group_form.category")
+      - translated_categories = Category.all.map{|c| [t(c.translatable_name), c.id]}
+      = f.input :category_id, as: :select, collection: translated_categories, include_blank: t(:"group_categories.blank"), label: t(:"group_form.category")
       %a.btn.btn-info.profile{href: '#', onclick: "$('a[href=\"#privacy\"]').tab('show')"}
         = t(:next)
     .tab-pane#privacy

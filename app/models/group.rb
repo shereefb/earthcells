@@ -6,6 +6,7 @@ class Group < ActiveRecord::Base
   class MaximumMembershipsExceeded < Exception
   end
 
+  acts_as_tree
   has_ancestry
 
   PAYMENT_PLANS = ['pwyc', 'subscription', 'manual_subscription', 'undetermined']
@@ -37,7 +38,7 @@ class Group < ActiveRecord::Base
   scope :archived, lambda { where('archived_at IS NOT NULL') }
   scope :published, lambda { where(archived_at: nil) }
 
-  scope :parents_only, -> { where(parent_id: nil) }
+  scope :parents_only, -> { roots }
 
   scope :sort_by_popularity, -> { order('memberships_count DESC') }
 
@@ -550,7 +551,7 @@ class Group < ActiveRecord::Base
   end
 
   def calculate_full_name
-    if is_parent?
+    if is_root?
       name
     else
       parent_name + " - " + name

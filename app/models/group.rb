@@ -511,6 +511,7 @@ class Group < ActiveRecord::Base
         second_child.add_member! member
       end
     end
+    self.update_attributes :is_visible_to_public => false, :members_can_add_members => false, :members_can_raise_motions => false
     return self
   end
 

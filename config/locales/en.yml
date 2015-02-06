@@ -461,7 +461,7 @@ en:
   confirm_remove_membership_request: "Are you sure you wish to withdraw your membership request for this earthcell?"
   no_pending_membership_requests: "There are currently no pending membership requests for this earthcell."
 
-  subgroups: "Sub-cells"
+  subgroups: "Split-cells"
   create_a_subgroup: "Create a sub-cell"
   select_members_to_add: "Select members to add to %{which_group}"
   empty_parent_group: "Please add the members to the parent earthcell first."

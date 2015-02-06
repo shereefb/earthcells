@@ -18,6 +18,7 @@ ActiveAdmin.register Group do
 
 
   filter :name
+  filter :zipcode
   filter :payment_plan, as: :select, collection: Group::PAYMENT_PLANS
   filter :memberships_count
   filter :created_at

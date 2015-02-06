@@ -7,9 +7,9 @@
 
     .panel-body
       %ul#users-list.clearfix
-        - group.members.first(15).each do |user|
-          %li{:id => user.id}
-            = render 'linked_avatar', user: user, show_title: true
+        - group.memberships.order(:created_at).first(15).each do |membership|
+          %li{:id => membership.user_id}
+            = render 'linked_avatar', user: membership.user, show_title: true
 
     .panel-footer
       .memberships_link

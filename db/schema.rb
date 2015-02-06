@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150206031151) do
+ActiveRecord::Schema.define(version: 20150206034850) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -333,6 +333,7 @@ ActiveRecord::Schema.define(version: 20150206031151) do
     t.boolean  "members_can_create_subgroups",       default: true,           null: false
     t.integer  "creator_id"
     t.string   "ancestry"
+    t.string   "zipcode"
   end
 
   add_index "groups", ["ancestry"], name: "index_groups_on_ancestry", using: :btree

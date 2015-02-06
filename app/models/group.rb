@@ -497,9 +497,9 @@ class Group < ActiveRecord::Base
 
   def split
     return false unless can_split?
-    
-    first_child = Group.create(:name => "first child", :parent => self)
-    second_child = Group.create(:name => "second child", :parent => self)
+    new_description = "Split from #{self.name}\n\n#{self.description}"
+    first_child = Group.create(:name => "first child", :description => new_description, :parent => self)
+    second_child = Group.create(:name => "second child", :description => new_description, :parent => self)
 
     self.members.each_with_index do |member, index|
       if (index%2 == 0) 

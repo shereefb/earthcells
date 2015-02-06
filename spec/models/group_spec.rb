@@ -234,6 +234,17 @@ describe Group do
         @group.split
         (@group.children[0].members.length - @group.children[1].members.length).abs.should equal 1
       end
+
+      context "children attributes" do
+        it "should have a different name from parent" do
+
+        end
+
+        it "should have a description same as parent plus ancestry" do
+         @group.split
+         @group.children[0].description.should equal? "Split from #{@group.name}\n\n#{@group.description}" 
+        end
+      end
     end
 
   end

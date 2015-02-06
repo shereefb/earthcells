@@ -489,6 +489,10 @@ class Group < ActiveRecord::Base
     end
   end
 
+  def downgrade_admins
+    self.memberships.where(:admin => true).update_all(:admin => false)
+  end
+
   def can_split?
     return false if self.split?
     return false if self.members.length < MIN_USERS_FOR_SPLIT
@@ -512,6 +516,7 @@ class Group < ActiveRecord::Base
       end
     end
     self.update_attributes :is_visible_to_public => false, :members_can_add_members => false, :members_can_raise_motions => false
+    self.downgrade_admins
     return self
   end
 

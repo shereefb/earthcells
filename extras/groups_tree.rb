@@ -12,8 +12,7 @@ class GroupsTree
   def each(&block)
     list = []
     @user.top_level_groups.each do |group|
-      list << group
-      list << @user.groups.where(id: group.children.map(&:id)).order(:name)
+      list << @user.groups.where(id: group.subtree.map(&:id)).order(:created_at)
     end
     list.flatten.each do |group|
       yield group

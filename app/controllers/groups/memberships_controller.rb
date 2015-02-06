@@ -5,7 +5,7 @@ class Groups::MembershipsController < GroupBaseController
 
   def index
     load_group
-    @memberships = @group.memberships.joins(:user).includes(:user).order('name')
+    @memberships = @group.memberships.joins(:user).includes(:user).order('memberships.created_at')
     if current_user.is_group_admin?(@group)
       render "coordinator_index"
     else

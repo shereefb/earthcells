@@ -11,8 +11,9 @@
   .col-md-12
     %table.memberships.table.table-striped
       %thead
-        %th.col-md-1= t :photo
-        %th.col-md-11= t :name
+        %th.col-md-1
+        %th.col-md-5= t :name
+        %th.col-md-6= t :member_since
       %tbody
         -@memberships.each do |membership|
           -user = membership.user
@@ -22,3 +23,5 @@
               %div
                 = link_to user.name, user_path(user)
               %div.access-level= t :coordinator if membership.admin?
+            %td
+              = time_ago_in_words user.created_at

@@ -237,7 +237,7 @@ describe Group do
 
       it "should have 1 more member than the sum of its children" do
         @group.split
-        @group.members.length.should equal (@group.children[0].members.length + @group.children[1].members.length - 1)
+        @group.members.length.should equal (@group.children[0].members.length + @group.children[1].members.length + 1)
       end
 
       it "should have children with same number of members" do

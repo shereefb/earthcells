@@ -307,7 +307,7 @@ en:
 
   group_form:
     name: "Earthcell name"
-    name_placeholder: "Location - Cell Name (for example:. Oakland - Ducks)"
+    name_placeholder: "Something unique, animal names are fun!"
     description: "Description"
     description_placeholder: "Which city/neighbourhood do you meet in? how often? what's your focus?...etc."
     category: "Category"

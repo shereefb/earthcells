@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150205045831) do
+ActiveRecord::Schema.define(version: 20150206031151) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -311,10 +311,10 @@ ActiveRecord::Schema.define(version: 20150205045831) do
     t.text     "enabled_beta_features"
     t.string   "subdomain"
     t.integer  "theme_id"
-    t.boolean  "is_visible_to_public",               default: false,          null: false
+    t.boolean  "is_visible_to_public",               default: true,           null: false
     t.boolean  "is_visible_to_parent_members",       default: false,          null: false
     t.string   "discussion_privacy_options",                                  null: false
-    t.boolean  "members_can_add_members",            default: false,          null: false
+    t.boolean  "members_can_add_members",            default: true,           null: false
     t.string   "membership_granted_upon",                                     null: false
     t.boolean  "members_can_edit_discussions",       default: true,           null: false
     t.boolean  "motions_can_be_edited",              default: false,          null: false

@@ -9,22 +9,23 @@
 
 
 = simple_form_for group, form_params do |f|
-  %ul.nav.nav-tabs#group-form-tabs
-    %li.active
-      %a{href: '#profile'}= t :profile
-    %li
-      %a{href: '#privacy'}= t :"common.privacy"
-    %li
-      %a{href: '#permissions'}= t :"common.permissions"
+  / %ul.nav.nav-tabs#group-form-tabs
+  /   %li.active
+  /     %a{href: '#profile'}= t :profile
+  /   %li
+  /     %a{href: '#privacy'}= t :"common.privacy"
+  /   %li
+  /     %a{href: '#permissions'}= t :"common.permissions"
 
   .tab-content
     .tab-pane.active#profile
-      = f.input :name, label: t(:'group_form.name')
-      = f.input :description, as: :text, label: t(:'group_form.description')
+      = f.input :name, label: t(:'group_form.name'), placeholder: t(:'group_form.name_placeholder')
+      = f.input :description, as: :text, label: t(:'group_form.description'), placeholder: t(:'group_form.description_placeholder')
       - translated_categories = Category.all.map{|c| [t(c.translatable_name), c.id]}
-      = f.input :category_id, as: :select, collection: translated_categories, include_blank: t(:"group_categories.blank"), label: t(:"group_form.category")
-      %a.btn.btn-info.profile{href: '#', onclick: "$('a[href=\"#privacy\"]').tab('show')"}
-        = t(:next)
+      = f.input :category_id, as: :hidden, collection: translated_categories, include_blank: t(:"group_categories.blank"), label: t(:"group_form.category")
+      / %a.btn.btn-info.profile{href: '#', onclick: "$('a[href=\"#privacy\"]').tab('show')"}
+      / = t(:next)
+      = f.submit submit_text, class: 'btn btn-primary', id: 'group_form_submit', data: {disable_with: submit_text}
     .tab-pane#privacy
       .radio_buttons
         = label_tag :visible_to, t(:'group_form.visible_to.label')
@@ -102,7 +103,7 @@
         %em= link_to t(:"group_form.learn_about_permissions"), "#learn-about-permissions-modal", 'data-toggle' => 'modal', id: 'learn-about-permissions'
 
       = f.input :parent_id, :as => :hidden
-      = f.submit submit_text, class: 'btn btn-primary', id: 'group_form_submit', data: {disable_with: submit_text}
+      / = f.submit submit_text, class: 'btn btn-primary', id: 'group_form_submit', data: {disable_with: submit_text}
 
 #learn-about-permissions-modal.modal
   .modal-dialog

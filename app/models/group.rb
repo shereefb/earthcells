@@ -14,7 +14,9 @@ class Group < ActiveRecord::Base
   PAYMENT_PLANS = ['pwyc', 'subscription', 'manual_subscription', 'undetermined']
   DISCUSSION_PRIVACY_OPTIONS = ['public_only', 'private_only', 'public_or_private']
   MEMBERSHIP_GRANTED_UPON_OPTIONS = ['request', 'approval', 'invitation']
+
   MIN_USERS_FOR_SPLIT = 7 #less than this numbers, and group splits aren't allowed
+  DEFAULT_ADMIN_COUNT = 3 #first 3 members that join a group are admins
 
   validates_presence_of :name
   validates_inclusion_of :payment_plan, in: PAYMENT_PLANS
@@ -378,6 +380,10 @@ class Group < ActiveRecord::Base
     membership ||= Membership.create!(group: self,
                                       user: user,
                                       inviter: inviter)
+    if self.reload.memberships.length <= DEFAULT_ADMIN_COUNT
+      membership.make_admin! && save
+    end
+    membership
   end
 
   def user_membership_or_request_exists? user

@@ -176,6 +176,26 @@ describe Group do
     end
   end
 
+  describe "add_member!" do
+    before :each do
+      @group = create(:group)
+      @user2 = create(:user)
+      @user3 = create(:user)
+      @user4 = create(:user)
+    end
+
+    it "makes first 3 users admins" do
+      @group.admins.length.should eq 1
+      @group.add_member!(@user2)
+      @group.reload.admins.length.should eq 2
+      @group.add_member!(@user3)
+      @group.reload.admins.length.should eq 3
+      @group.add_member!(@user4)
+      @group.reload.admins.length.should eq 3
+    end
+
+  end
+
   describe "split" do
     before :each do
       @group = create(:group)
@@ -230,14 +250,21 @@ describe Group do
         @group.members.length.should equal (@group.children[0].members.length + @group.children[1].members.length)
       end
 
-      it "should have children with close number of members" do
+      it "should have children with same number of members" do
         @group.split
-        (@group.children[0].members.length - @group.children[1].members.length).abs.should equal 1
+        (@group.children[0].members.length - @group.children[1].members.length).should equal 0
       end
 
-      context "children attributes" do
-        it "should have a different name from parent" do
+      it "neither children should have most senior member"
 
+      context "children attributes" do
+        it "should have 3 admins" do
+            @group.add_member!(@user8)
+            @group.add_member!(@user9)
+            @group.add_member!(@user10)
+            @group.split
+            @group.reload.children[0].admins.length.should eq 3
+            @group.reload.children[1].admins.length.should eq 3
         end
 
         it "should have a description same as parent plus ancestry" do

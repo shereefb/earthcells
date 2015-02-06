@@ -1,5 +1,3 @@
-require 'Bazaar'
-
 class Group < ActiveRecord::Base
   include ReadableUnguessableUrls
   include BetaFeatures

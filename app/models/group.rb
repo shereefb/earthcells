@@ -378,10 +378,6 @@ class Group < ActiveRecord::Base
     membership ||= Membership.create!(group: self,
                                       user: user,
                                       inviter: inviter)
-    if self.reload.memberships.length <= DEFAULT_ADMIN_COUNT
-      membership.make_admin! && save
-    end
-    membership
   end
 
   def user_membership_or_request_exists? user
@@ -505,18 +501,23 @@ class Group < ActiveRecord::Base
 
   def split
     return false unless can_split?
-    puts "XXXXX we can split. no problem"
     new_description = "Split from #{self.name}\n\n#{self.description}"
     first_child = Group.create(:name => Bazaar.name, :description => new_description, :parent => self, :zipcode => self.zipcode, :country => self.country)
     second_child = Group.create(:name => Bazaar.name, :description => new_description, :parent => self, :zipcode => self.zipcode, :country => self.country)
 
     self.memberships.order(:created_at).each_with_index do |membership, index|
       member = membership.user
-      # next if index == 0 #BUGBUG: needs to be tested
-      if (index%2 == 0) 
-        first_child.add_member! member
+      next if index == 0
+      if (index%2 == 1) 
+        group = first_child
       else
-        second_child.add_member! member
+        group = second_child
+      end
+      
+      if index <= (DEFAULT_ADMIN_COUNT * 2)
+        group.add_admin! member
+      else
+        group.add_member! member
       end
     end
     self.update_attributes :is_visible_to_public => false, :members_can_add_members => false, :members_can_raise_motions => false

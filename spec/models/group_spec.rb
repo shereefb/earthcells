@@ -184,16 +184,6 @@ describe Group do
       @user4 = create(:user)
     end
 
-    it "makes first 3 users admins" do
-      @group.admins.length.should eq 1
-      @group.add_member!(@user2)
-      @group.reload.admins.length.should eq 2
-      @group.add_member!(@user3)
-      @group.reload.admins.length.should eq 3
-      @group.add_member!(@user4)
-      @group.reload.admins.length.should eq 3
-    end
-
   end
 
   describe "split" do
@@ -245,9 +235,9 @@ describe Group do
         @group.reload.children.length.should be 2
       end
 
-      it "should have equal members to the sum of its children" do
+      it "should have 1 more member than the sum of its children" do
         @group.split
-        @group.members.length.should equal (@group.children[0].members.length + @group.children[1].members.length)
+        @group.members.length.should equal (@group.children[0].members.length + @group.children[1].members.length - 1)
       end
 
       it "should have children with same number of members" do

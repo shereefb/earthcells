@@ -509,8 +509,8 @@ class Group < ActiveRecord::Base
     return false unless can_split?
     puts "XXXXX we can split. no problem"
     new_description = "Split from #{self.name}\n\n#{self.description}"
-    first_child = Group.create(:name => Bazaar.name, :description => new_description, :parent => self)
-    second_child = Group.create(:name => Bazaar.name, :description => new_description, :parent => self)
+    first_child = Group.create(:name => Bazaar.name, :description => new_description, :parent => self, :zipcode => self.zipcode, :country => self.country)
+    second_child = Group.create(:name => Bazaar.name, :description => new_description, :parent => self, :zipcode => self.zipcode, :country => self.country)
 
     self.memberships.order(:created_at).each_with_index do |membership, index|
       member = membership.user

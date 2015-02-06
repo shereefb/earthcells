@@ -18,6 +18,7 @@ module Loomio
 
     # Custom directories with classes and modules you want to be autoloadable.
     config.paths.add "extras", eager_load: true
+    config.autoload_paths << Rails.root.join('lib')
     #config.autoload_paths += Dir["#{config.root}/app/forms/**/"]
 
     # Only load the plugins named here, in the order given (default is alphabetical).

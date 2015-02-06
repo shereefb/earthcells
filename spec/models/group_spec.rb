@@ -135,6 +135,33 @@ describe Group do
     end
   end
 
+  describe "split" do
+    before :each do
+      @group = create(:group)
+      @user1 = create(:user)
+      @user2 = create(:user)
+      @user3 = create(:user)
+      @user4 = create(:user)
+      @user5 = create(:user)
+      @user6 = create(:user)
+      @user7 = create(:user)
+      @user8 = create(:user)
+      @user9 = create(:user)
+      @user10 = create(:user)
+      @group.add_member!(@user1)
+      @group.add_member!(@user2)
+      @group.add_member!(@user3)
+      @group.add_member!(@user4)
+      @group.add_member!(@user5)
+      @group.add_member!(@user6)
+    end
+
+    it "cannot split with less than 7 members" do
+      @group.split.should be false
+    end
+  end
+
+
   context "an existing hidden group" do
     before :each do
       @group = create(:group, is_visible_to_public: false)

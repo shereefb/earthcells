@@ -12,6 +12,7 @@ class Group < ActiveRecord::Base
   PAYMENT_PLANS = ['pwyc', 'subscription', 'manual_subscription', 'undetermined']
   DISCUSSION_PRIVACY_OPTIONS = ['public_only', 'private_only', 'public_or_private']
   MEMBERSHIP_GRANTED_UPON_OPTIONS = ['request', 'approval', 'invitation']
+  MIN_USERS_FOR_SPLIT = 7 #less than this numbers, and group splits aren't allowed
 
   validates_presence_of :name
   validates_inclusion_of :payment_plan, in: PAYMENT_PLANS
@@ -486,6 +487,13 @@ class Group < ActiveRecord::Base
     else
       super
     end
+  end
+
+  def split
+    puts self.members
+    puts self.members.length
+    return false if self.members.length < MIN_USERS_FOR_SPLIT
+    return true
   end
 
   # a bit nasty but no one really cares/has time to clean up the group_request stuff

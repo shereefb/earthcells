@@ -489,11 +489,26 @@ class Group < ActiveRecord::Base
     end
   end
 
-  def split
-    puts self.members
-    puts self.members.length
+  def can_split?
     return false if self.members.length < MIN_USERS_FOR_SPLIT
-    return true
+    return false if self.has_children?
+    true
+  end
+
+  def split
+    return false unless can_split?
+    
+    first_child = Group.create(:name => "first child", :parent => self)
+    second_child = Group.create(:name => "second child", :parent => self)
+
+    self.members.each_with_index do |member, index|
+      if (index%2 == 0) 
+        first_child.add_member! member
+      else
+        second_child.add_member! member
+      end
+    end
+    return self
   end
 
   # a bit nasty but no one really cares/has time to clean up the group_request stuff

@@ -133,6 +133,15 @@ class GroupsController < GroupBaseController
     redirect_to @group
   end
 
+  def split
+    if @group.split
+      flash[:success] = t("success.group_split")
+    else
+      flash[:error] = t("error.group_didn't_split")
+    end
+    redirect_to dashboard_path #BUGBUG: should redirect to dashboard and deactivate
+  end
+
   private
     def ensure_group_is_setup
       if user_signed_in? && @group.admins.include?(current_user)

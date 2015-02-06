@@ -1,3 +1,5 @@
+require 'Bazaar'
+
 class Group < ActiveRecord::Base
   include ReadableUnguessableUrls
   include BetaFeatures
@@ -353,10 +355,8 @@ class Group < ActiveRecord::Base
   end
 
   def add_member!(user, inviter=nil)
-    if is_parent?
-      if (memberships_count.to_i > max_size.to_i)
-        raise Group::MaximumMembershipsExceeded
-      end
+    if (memberships_count.to_i > max_size.to_i)
+      raise Group::MaximumMembershipsExceeded
     end
     find_or_create_membership(user, inviter)
   end
@@ -497,11 +497,14 @@ class Group < ActiveRecord::Base
 
   def split
     return false unless can_split?
+    puts "XXXXX we can split. no problem"
     new_description = "Split from #{self.name}\n\n#{self.description}"
     first_child = Group.create(:name => Bazaar.name, :description => new_description, :parent => self)
     second_child = Group.create(:name => Bazaar.name, :description => new_description, :parent => self)
 
-    self.members.each_with_index do |member, index|
+    self.memberships.order(:created_at).each_with_index do |membership, index|
+      member = membership.user
+      # next if index == 0 #BUGBUG: needs to be tested
       if (index%2 == 0) 
         first_child.add_member! member
       else

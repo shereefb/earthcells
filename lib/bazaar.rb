@@ -1,5 +1,3 @@
-require "bazaar/version"
-
 module Bazaar
   def self.item
     get_item("items").humanize

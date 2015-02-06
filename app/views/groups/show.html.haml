@@ -48,6 +48,10 @@
   .col-md-3
     #group-actions
       .btn-toolbar
+      - if can? :split, @group
+        = link_to split_group_path(@group), method: 'post', data: { confirm: t(:confirm_split_group, which_group: @group.name) }, id: 'split-group', class: 'btn btn-block btn-danger btn-left' do
+          %i.fa.fa-bolt
+          = t(:split_group)
       - if can? :create, @discussion
         = link_to new_discussion_path(:group_id => @group.id), id: 'start-new-discussion', class: 'btn btn-block btn-primary btn-left cuke-start-discussion' do
           %i.fa.fa-comments

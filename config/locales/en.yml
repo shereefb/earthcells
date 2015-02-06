@@ -31,6 +31,7 @@ en:
         blank: "can't be blank"
 
   errors:
+    group_not_split: "Couldn't split this earthcell for some reason!"
     messages:
       email: "Not a valid email address"
 
@@ -151,6 +152,7 @@ en:
     emails_sending: "Emails sending."
     group_archived: "Earthcell archived successfully."
     group_created: "Earthcell created successfully."
+    group_split: "Group split successfully"
     members_added: "Members added to earthcell."
     membership_requested: "You've asked to join %{which_group}. You will be notified once your request has been approved."
     motion_closed: "Proposal closed. If you like, you can set an outcome below and send it to your earthcell."
@@ -429,6 +431,8 @@ en:
   confirm_leave_group: "Are you sure you wish to leave %{which_group}?"
   deactivate_group: "De-activate earthcell"
   confirm_deactivate_group: "Wait!!! Are you sure you want to de-activate %{which_group}? You will no longer be able to view the earthcell. However, if you wish to get the earthcell back you can ask us to reactivate it for you by sending an email to contact@earthcells.net."
+  split_group: "Split this cell"
+  confirm_split_group: "Wait!!! Are you sure you want to split %{which_group}? This is an irreversible decision. Once a cell splits, its members (besides the most senior one) are divided over its two split children. The cell is then locked: no new members can join, and it's hidden from the public."
 
   invited_users: "Invited members"
   members: "Members"

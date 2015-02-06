@@ -168,6 +168,7 @@ Loomio::Application.routes.draw do
     patch    ':id(/:slug)', action: 'update'
     delete ':id(/:slug)', action: 'destroy'
     post 'archive/:id',  action: 'archive', as: :archive_group
+    post 'split/:id',  action: 'split', as: :split_group
   end
 
   constraints(GroupSubdomainConstraint) do

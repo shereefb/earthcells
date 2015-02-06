@@ -42,6 +42,14 @@ class Ability
       end
     end
 
+    can :split, Group do |group|
+      if group.is_archived? || !group.can_split?
+        false
+      else
+        user_is_member_of?(group.id)
+      end
+    end
+
     can [:view_payment_details,
          :choose_subscription_plan], Group do |group|
       group.is_root? and user_is_admin_of?(group.id) and (!group.has_manual_subscription?)

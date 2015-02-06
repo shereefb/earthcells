@@ -87,7 +87,6 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'selenium-webdriver'
   gem 'rspec-console'
-  gem 'spork-rails'
 end
 
 group :development do

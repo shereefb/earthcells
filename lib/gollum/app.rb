@@ -87,15 +87,19 @@ module Precious
 
     # Sinatra error handling
     configure :development, :staging do
-      enable :show_exceptions, :dump_errors
+      enable :logging, :dump_errors, :raise_errors, :show_exceptions
       disable :raise_errors, :clean_trace
     end
+
+    enable :logging
 
     configure :test do
       enable :logging, :raise_errors, :dump_errors
     end
-
+    
     before do
+      logger.debug "Params"
+      logger.debug params
       @base_url = url('/', false).chomp('/')
       # above will detect base_path when it's used with map in a config.ru
       settings.wiki_options.merge!({ :base_path => @base_url })
@@ -283,6 +287,7 @@ module Precious
 
     get '/create/*' do
       forbid unless @allow_editing
+      logger.info "XXXXXXXXXXXXXXXXXX"
       wikip = wiki_page(params[:splat].first.gsub('+', '-'))
       @name = wikip.name.to_url
       @path = wikip.path
@@ -308,6 +313,7 @@ module Precious
     end
 
     post '/create' do
+      logger.info "YYYYYYYYYYYYYYYYYYYYYYY"
       name   = params[:page].to_url
       path   = sanitize_empty_params(params[:path]) || ''
       format = params[:format].intern

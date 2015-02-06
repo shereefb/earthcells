@@ -159,6 +159,16 @@ describe Group do
     it "cannot split with less than 7 members" do
       @group.split.should be false
     end
+
+    it "can split with more than 7 members" do
+      @group.add_member!(@user7)
+      @group.split.should be true
+    end
+
+    it "cannot split if it has any children" do
+      @subgroup = create(:group, :parent => @group)
+    end
+
   end
 
 

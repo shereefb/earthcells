@@ -22,7 +22,7 @@ class Group < ActiveRecord::Base
   validates_inclusion_of :membership_granted_upon, in: MEMBERSHIP_GRANTED_UPON_OPTIONS
   validates :name, length: { maximum: 250 }
 
-  validate :limit_inheritance
+  # validate :limit_inheritance
   validate :validate_parent_members_can_see_discussions
   validate :validate_is_visible_to_parent_members
   validate :validate_discussion_privacy_options
@@ -490,8 +490,8 @@ class Group < ActiveRecord::Base
   end
 
   def can_split?
+    return false if self.split?
     return false if self.members.length < MIN_USERS_FOR_SPLIT
-    return false if self.has_children?
     true
   end
 
@@ -512,6 +512,10 @@ class Group < ActiveRecord::Base
       end
     end
     return self
+  end
+
+  def split?
+    self.has_children?
   end
 
   # a bit nasty but no one really cares/has time to clean up the group_request stuff

@@ -334,6 +334,7 @@ ActiveRecord::Schema.define(version: 20150206034850) do
     t.integer  "creator_id"
     t.string   "ancestry"
     t.string   "zipcode"
+    t.string   "country"
   end
 
   add_index "groups", ["ancestry"], name: "index_groups_on_ancestry", using: :btree

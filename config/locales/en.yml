@@ -310,6 +310,8 @@ en:
     name_placeholder: "Something unique, animal names are fun!"
     description: "Description"
     description_placeholder: "Which city/neighbourhood do you meet in? how often? what's your focus?...etc."
+    zipcode: "Zip Code"
+    country: "Country"
     category: "Category"
 
     confirm_all_discussions_will_be_made_private_message: "If you proceed, any public discussions will be made private."

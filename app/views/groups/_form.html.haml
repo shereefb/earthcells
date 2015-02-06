@@ -21,6 +21,9 @@
     .tab-pane.active#profile
       = f.input :name, label: t(:'group_form.name'), placeholder: t(:'group_form.name_placeholder')
       = f.input :description, as: :text, label: t(:'group_form.description'), placeholder: t(:'group_form.description_placeholder')
+      = f.label t(:'group_form.country')
+      = f.country_select :country
+      = f.input :zipcode, label: t(:'group_form.zipcode')
       - translated_categories = Category.all.map{|c| [t(c.translatable_name), c.id]}
       = f.input :category_id, as: :hidden, collection: translated_categories, include_blank: t(:"group_categories.blank"), label: t(:"group_form.category")
       / %a.btn.btn-info.profile{href: '#', onclick: "$('a[href=\"#privacy\"]').tab('show')"}

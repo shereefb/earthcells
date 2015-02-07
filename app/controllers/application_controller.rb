@@ -11,6 +11,7 @@ class ApplicationController < ActionController::Base
   helper_method :subdomain
 
   before_filter :set_application_locale
+  before_filter :set_wiki_author
   around_filter :user_time_zone, if: :user_signed_in?
 
   after_filter :increment_measurement
@@ -31,6 +32,10 @@ class ApplicationController < ActionController::Base
   protected
   def using_new_relic?
     ENV['NEW_RELIC_APP_NAME'].present?
+  end
+
+  def set_wiki_author
+    session["gollum.author"] = {:name => current_user.name} if current_user
   end
 
   def new_relic_insights

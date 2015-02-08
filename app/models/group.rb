@@ -29,6 +29,7 @@ class Group < ActiveRecord::Base
 
   before_save :update_full_name_if_name_changed
   after_save :update_full_name_of_subgroups_if_name_changed
+  after_create :create_wiki_page
   before_validation :set_discussions_private_only, if: :is_hidden_from_public?
 
   include PgSearch
@@ -497,6 +498,19 @@ class Group < ActiveRecord::Base
     return false if self.split?
     return false if self.members.length < MIN_USERS_FOR_SPLIT
     true
+  end
+
+  def create_wiki_page
+    commit_message = self.parent.present? ? "Code forked from #{self.parent.name}" : "Genesis code"
+    commit = { :message => commit_message,
+           :name => "Earthcell Bot",
+           :email => "info@earthcells.net" }
+    source = self.parent.present? ? self.parent.wiki_url : "Genesis"
+    Wiki.duplicate_page(source,self.wiki_url,commit)
+  end
+
+  def wiki_url
+    "#{self.key}/#{self.name}"
   end
 
   def split

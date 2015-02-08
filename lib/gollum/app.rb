@@ -447,35 +447,35 @@ module Precious
       mustache :search
     end
 
-    get %r{
-      /pages  # match any URL beginning with /pages
-      (?:     # begin an optional non-capturing group
-        /(.+) # capture any path after the "/pages" excluding the leading slash
-      )?      # end the optional non-capturing group
-    }x do |path|
-      @path        = extract_path(path) if path
-      wiki_options = settings.wiki_options.merge({ :page_file_dir => @path })
-      wiki         = Gollum::Wiki.new(settings.gollum_path, wiki_options)
-      @results     = wiki.pages
-      @results     += wiki.files if settings.wiki_options[:show_all]
-      @results     = @results.sort_by { |p| p.name.downcase } # Sort Results alphabetically, fixes 922
-      @ref         = wiki.ref
-      mustache :pages
-    end
+    # get %r{
+    #   /pages  # match any URL beginning with /pages
+    #   (?:     # begin an optional non-capturing group
+    #     /(.+) # capture any path after the "/pages" excluding the leading slash
+    #   )?      # end the optional non-capturing group
+    # }x do |path|
+    #   @path        = extract_path(path) if path
+    #   wiki_options = settings.wiki_options.merge({ :page_file_dir => @path })
+    #   wiki         = Gollum::Wiki.new(settings.gollum_path, wiki_options)
+    #   @results     = wiki.pages
+    #   @results     += wiki.files if settings.wiki_options[:show_all]
+    #   @results     = @results.sort_by { |p| p.name.downcase } # Sort Results alphabetically, fixes 922
+    #   @ref         = wiki.ref
+    #   mustache :pages
+    # end
 
-    get '/fileview' do
-      wiki     = wiki_new
-      options  = settings.wiki_options
-      content  = wiki.pages
-      # if showing all files include wiki.files
-      content  += wiki.files if options[:show_all]
+    # get '/fileview' do
+    #   wiki     = wiki_new
+    #   options  = settings.wiki_options
+    #   content  = wiki.pages
+    #   # if showing all files include wiki.files
+    #   content  += wiki.files if options[:show_all]
 
-      # must pass wiki_options to FileView
-      # --show-all and --collapse-tree can be set.
-      @results = Gollum::FileView.new(content, options).render_files
-      @ref     = wiki.ref
-      mustache :file_view, { :layout => false }
-    end
+    #   # must pass wiki_options to FileView
+    #   # --show-all and --collapse-tree can be set.
+    #   @results = Gollum::FileView.new(content, options).render_files
+    #   @ref     = wiki.ref
+    #   mustache :file_view, { :layout => false }
+    # end
 
     get '/*' do
       show_page_or_file(params[:splat].first)

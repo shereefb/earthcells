@@ -1,6 +1,7 @@
 - set_title @group.name, "", @group.parent
 - cover_photo_url = image_url use_parent_if_blank(@group, :cover_photo).url(:desktop)
-- logo_url = image_url use_parent_if_blank(@group, :logo).url(:medium)
+- code_url = @group.wiki_url
+/ - logo_url = image_url use_parent_if_blank(@group, :logo).url(:medium)
 
 .group-heading{style: "background-image: url(#{image_path 'cover-photo-gradient.png'}), url('#{cover_photo_url}')"}
   = render 'application/flash_messages', :flash => flash, :on_landing_page => false
@@ -12,13 +13,14 @@
           %i.fa.fa-pencil
 
 
-  .group-logo.hidden-xs{style: "background-image: url('#{logo_url}')"}
-    - if can? :edit, @group
-      .upload-button.logo-upload{title: t(:'tooltip.logo_upload')}
-        = form_for @group, html: { multipart: true, class: 'js-submit-on-change' } do |f|
-          = file_field_tag "group[logo]"
-          .edit-icon
-            %i.fa.fa-pencil
+  = link_to @group.wiki_url do
+    .group-logo.hidden-xs    
+    / - if can? :edit, @group
+    /   .upload-button.logo-upload{title: t(:'tooltip.logo_upload')}
+    /     = form_for @group, html: { multipart: true, class: 'js-submit-on-change' } do |f|
+    /       = file_field_tag "group[logo]"
+    /       .edit-icon
+    /         %i.fa.fa-pencil
 
   .group-title
     %h1.home-title.shadow
@@ -26,7 +28,7 @@
         - if @group.is_subgroup?
           = link_to @group.parent.name, @group.parent
           = content_tag :span, "\u25B6", class: 'name-separator'
-        = link_to @group.name, @group
+        = link_to @group.name, @group.wiki_url
         = render 'groups/privacy_dropdown', :group => @group
     - if @group.category.present?
       .group-category.shadow.hidden-sm.hidden-xs

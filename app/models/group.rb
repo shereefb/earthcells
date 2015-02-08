@@ -505,12 +505,16 @@ class Group < ActiveRecord::Base
     commit = { :message => commit_message,
            :name => "Earthcell Bot",
            :email => "info@earthcells.net" }
-    source = self.parent.present? ? self.parent.wiki_url : "Genesis"
-    Wiki.duplicate_page(source,self.wiki_url,commit)
+    source = self.parent.present? ? self.parent.key_url : "Genesis"
+    Wiki.duplicate_page(source,self.key_url,commit)
+  end
+
+  def key_url
+    "#{self.key}/#{self.name}"
   end
 
   def wiki_url
-    "#{self.key}/#{self.name}"
+    "/wiki/#{self.key_url}"
   end
 
   def split

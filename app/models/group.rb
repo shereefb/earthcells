@@ -505,7 +505,7 @@ class Group < ActiveRecord::Base
     commit = { :message => commit_message,
            :name => "Earthcell Bot",
            :email => "info@earthcells.net" }
-    source = self.parent.present? ? self.parent.key_url : "Genesis"
+    source = self.parent.present? ? self.parent.key_url : "Home"
     Wiki.duplicate_page(source,self.key_url,commit)
   end
 

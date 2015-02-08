@@ -41,6 +41,7 @@ module Precious
       end
 
       def editable
+        return false if @page.url_path_title == "Home"
         @editable
       end
 

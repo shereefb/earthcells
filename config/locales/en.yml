@@ -402,9 +402,9 @@ en:
       members_html: 'Members only <span>the earthcell will not be listed</span>'
 
   setup_steps_title: "Next steps:"
-  setup_step_1: "Check out the example discussion"
-  setup_step_2: "Start your first discussion"
-  setup_step_3: "Invite people to your earthcell"
+  setup_step_1: "Check out your cell's code by clicking on its name"
+  setup_step_2: "Invite people to your earthcell"
+  setup_step_3: "Start your first discussion"
 
   invite_people: "Invite people"
   no_invitations_button: "No invitations left"

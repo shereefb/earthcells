@@ -18,6 +18,13 @@ body, html {
   padding: 0;
 }
 
+.app-logo{
+     width: 93px;
+    margin: 9px 0 0 10px;
+   ..
+    background: image-url("navbar-logo.png") 0 0 no-repeat;
+}
+
 #wiki-wrapper {
   margin: 0 auto;
   overflow: visible;

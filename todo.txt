@@ -1,0 +1,18 @@
+WIKI:
+Wiki url is guessable if I can see the subcells from my cell and reverse engineer the url!
+Figure out how to have all code in a subfolder.
+BUGBUG: Once a name changes, we lost the wiki!
+
+
+Marketing:
+Update homepage with bluepring stuff
+
+Form:
+Remove dropdown from quick-start link (commercial or non-commercial?)
+
+Before launching:
+Cleanup database
+
+Test: Searching for earthcell.
+
+Map earthcells on a google map based on zipcode?

@@ -510,7 +510,7 @@ class Group < ActiveRecord::Base
   end
 
   def key_url
-    "#{self.key}/#{self.name}"
+    "#{self.key}-#{self.name.gsub(' ','-')}"
   end
 
   def wiki_url

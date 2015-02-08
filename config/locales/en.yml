@@ -152,7 +152,7 @@ en:
     emails_sending: "Emails sending."
     group_archived: "Earthcell archived successfully."
     group_created: "Earthcell created successfully."
-    group_split: "Group split successfully"
+    group_split: "Earthcell split successfully!"
     members_added: "Members added to earthcell."
     membership_requested: "You've asked to join %{which_group}. You will be notified once your request has been approved."
     motion_closed: "Proposal closed. If you like, you can set an outcome below and send it to your earthcell."

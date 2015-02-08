@@ -11,7 +11,7 @@ module Precious
       def title
         h1 = @h1_title ? page_header_from_content(@content) : false
         title = h1 || @page.url_path_title
-        "Code for Eartchell: #{title.split("/").last}"
+        "Code for Eartchell: #{title.split(" ")[1..100].join(" ")}"
       end
 
       def page_header

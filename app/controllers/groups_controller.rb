@@ -7,6 +7,7 @@ class GroupsController < GroupBaseController
 
   before_filter :ensure_group_is_setup, only: :show
   before_filter :assign_meta_data, only: :show
+  before_filter :set_source_url, only: :show #user for sinatra app back button
 
   rescue_from ActiveRecord::RecordNotFound do
     render 'application/display_error', locals: { message: t('error.group_private_or_not_found') }
@@ -156,5 +157,10 @@ class GroupsController < GroupBaseController
         @meta_title = @group.name
         @meta_description = @group.description
       end
+    end
+
+    def set_source_url
+      session["source_url"] = group_url @group
+      session["source_group"] = @group.name
     end
 end

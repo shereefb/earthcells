@@ -32,6 +32,14 @@ module Precious
         @js
       end
 
+      def source_url
+        @source_url || '/dashboard'
+      end
+
+      def source_group
+        @source_group || 'Earthcells'
+      end
+
     end
   end
 end

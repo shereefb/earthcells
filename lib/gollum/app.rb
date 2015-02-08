@@ -108,6 +108,8 @@ module Precious
       @mathjax_config = settings.wiki_options[:mathjax_config]
       settings.wiki_options[:allow_editing] = settings.wiki_options.fetch(:allow_editing, true)
       @allow_editing = settings.wiki_options[:allow_editing]
+      @source_url = session['source_url'] || '/dashboard'
+      @source_group = session['source_group'] || 'Earthcells'
     end
 
     get '/' do

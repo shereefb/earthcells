@@ -501,7 +501,7 @@ class Group < ActiveRecord::Base
   end
 
   def create_wiki_page
-    commit_message = self.parent.present? ? "Code forked from #{self.parent.name}" : "Genesis code"
+    commit_message = self.parent.present? ? "Code forked from #{self.parent.name}: http:/#{self.parent.wiki_url}" : "Genesis code"
     commit = { :message => commit_message,
            :name => "Earthcell Bot",
            :email => "info@earthcells.net" }

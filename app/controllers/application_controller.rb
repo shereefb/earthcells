@@ -35,7 +35,7 @@ class ApplicationController < ActionController::Base
   end
 
   def set_wiki_author
-    session["gollum.author"] = {:name => current_user.name} if current_user
+    session["gollum.author"] = {:name => "#{current_user.name}", :email => current_user.email} if current_user
   end
 
   def new_relic_insights

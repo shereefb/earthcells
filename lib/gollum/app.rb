@@ -287,7 +287,6 @@ module Precious
 
     get '/create/*' do
       forbid unless @allow_editing
-      logger.info "XXXXXXXXXXXXXXXXXX"
       wikip = wiki_page(params[:splat].first.gsub('+', '-'))
       @name = wikip.name.to_url
       @path = wikip.path
@@ -313,7 +312,6 @@ module Precious
     end
 
     post '/create' do
-      logger.info "YYYYYYYYYYYYYYYYYYYYYYY"
       name   = params[:page].to_url
       path   = sanitize_empty_params(params[:path]) || ''
       format = params[:format].intern
@@ -501,6 +499,7 @@ module Precious
         @h1_title      = wiki.h1_title
         @bar_side      = wiki.bar_side
         @allow_uploads = wiki.allow_uploads
+        @testx           = false
 
         mustache :page
       elsif file = wiki.file(fullpath, wiki.ref, true)
@@ -542,7 +541,7 @@ module Precious
     def commit_message
       msg               = (params[:message].nil? or params[:message].empty?) ? "[no message]" : params[:message]
       commit_message    = { :message => msg }
-      author_parameters = session['gollum.author.2']
+      author_parameters = session['gollum.author']
       commit_message.merge! author_parameters unless author_parameters.nil?
       commit_message
     end

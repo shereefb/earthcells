@@ -246,7 +246,7 @@ en:
   edit_discussion_context: "Edit discussion context"
   request_new_group: "Start an earthcell"
   start_new_group: "Start a new earthcell"
-  start_new_group_hint: "To start making decisions"
+  start_new_group_hint: "To start your own group"
   find_a_group: "Find an earthcell"
   find_a_group_hint: "To explore public earthcells"
   search_for_group: "Search for an earthcell..."
@@ -498,7 +498,7 @@ en:
 
   group_request:
     beta_request_header: "Start an earthcell"
-    beta_request_description: "To start making decisions on Earthcells Beta, the first step is to start an earthcell"
+    beta_request_description: "To taking action towards the common good, the first step is to start an earthcell"
     neighbourhood_support_group: "e.g. Neighbourhood Support Earthcell"
     commercial_use_option: in a company, formal organisation or workplace
     non_commercial_use_option: in a community earthcell or informal network
